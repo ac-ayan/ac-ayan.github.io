@@ -1,0 +1,31 @@
+.skill-div{
+    padding: 80px 220px;
+}
+.skill-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill-section .image-section {
+   height: 60%;
+   align-items: center;
+   display: flex;
+   overflow: hidden;
+}
+.skill-section .card-title{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.skill-section .card-content{
+    text-align: justify;
+    text-align-last: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.skill-div h2 {
+    font-family: 'Mirza', cursive;
+      font-weight: 600;
+      color: #393d41;
+      font-size: 50px;
+  }

@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./About";
+import Skill from "./Skill";
 import Footer from "./Footer";
 import "../css/main.css";
 
@@ -11,6 +12,7 @@ function App(){
             <NavBar />
             <Header />
             <About />
+            <Skill />
             <Footer />
         </div>
     );

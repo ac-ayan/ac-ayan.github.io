@@ -29,7 +29,7 @@ function NavBar() {
           <Nav.Link href="#contact" className="nav-item">
             Contact
           </Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <NavDropdown title="Handles" id="basic-nav-dropdown" className="nav-item">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
