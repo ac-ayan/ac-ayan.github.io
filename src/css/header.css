@@ -38,3 +38,9 @@
 .resume-button:hover {
     background-color: #0f65dd;
 }
+.member-text{
+  font-family: 'Space Mono', monospace;
+  padding-left:80px;
+  font-size: 18px;
+  font-style: italic;
+}

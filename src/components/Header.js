@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/header.css";
 import image0 from "../assets/profile-images/IMG_1814.JPG";
+import logo from "../assets/position-images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "bootstrap";
 
 function Header() {
   return (
@@ -24,6 +24,7 @@ function Header() {
           Google Codejam, Leetcode etc.
         </p>
        <button className="resume-button">Resume</button>
+       <span className="member-text">- Technical Member at</span><img src={logo} style={{"width":"100px"}}/>
       </div>
       <div className="image-section">
         <img src={image0} alt="main-profile" />

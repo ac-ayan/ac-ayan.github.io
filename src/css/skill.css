@@ -1,10 +1,14 @@
 .skill-div{
     padding: 80px 220px;
 }
+.skill-card{
+   border: none;
+}
 .skill-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: none;
 }
 .skill-section .image-section {
    height: 60%;
