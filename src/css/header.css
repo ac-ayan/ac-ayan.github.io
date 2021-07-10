@@ -1,0 +1,40 @@
+.header-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px 220px;
+  background: rgba(255,255,255,0.7);
+}
+.header-section .text-section {
+  padding-top: 100px;
+}
+.header-section .text-section h2{
+    font-size: 45px;
+    /* font-family: 'Amaranth', sans-serif; */
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    color: #393d41;
+}
+.header-section .text-section p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.header-section .text-section .description {
+  padding: 20px 150px 20px 0;
+}
+.header-section .image-section img {
+  width: 400px;
+}
+.resume-button{
+    background-color: #007bff;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    border: none;
+    border-radius: 48px;
+}
+.resume-button:hover {
+    background-color: #0f65dd;
+}

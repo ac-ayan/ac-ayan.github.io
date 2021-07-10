@@ -1,0 +1,34 @@
+.navbar-section{
+    background: rgba(255,255,255,0.5);
+    padding: 0px 220px;
+    justify-content: space-between;
+    font-family: 'Space Mono', monospace;
+}
+.brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+.mr-auto{
+    margin-right: 0 !important;
+    padding-left: 23%;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.nav-item{
+    margin: 0px 10px;
+    color: #515558 !important;
+}
+/* //Brand Color Section// */
+.red{
+    color: #34a853;
+}
+.yellow{
+    color:#34a853;
+}
+.green{
+    color: #34a853;
+}
+.blue{
+    color: #4285f4;
+}
