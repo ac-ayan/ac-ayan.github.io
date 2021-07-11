@@ -1,0 +1,19 @@
+.project-section{
+    padding: 50px 220px;
+}
+.project-section h2{
+    font-family: 'Mirza', cursive;
+    font-weight: 600;
+    color: #393d41;
+    font-size: 50px;
+}
+.project-list{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-section .button-div{
+    display: flex;
+    justify-content: space-evenly;
+}

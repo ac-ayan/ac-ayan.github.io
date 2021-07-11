@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./About";
+import Project from "./Project";
 import Skill from "./Skill";
 import Education from "./Education";
 import Footer from "./Footer";
@@ -12,8 +13,13 @@ function App(){
         <div className="main-section">
             <NavBar />
             <Header />
+            <hr></hr>
             <About />
+            <hr></hr>
+            <Project />
+            <hr></hr>
             <Skill />
+            <hr></hr>
             <Education />
             <Footer />
         </div>

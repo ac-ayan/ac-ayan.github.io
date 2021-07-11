@@ -16,7 +16,7 @@ function Footer() {
         <div className="coding-handles">
             <h4>coding handles.</h4>
             <ul>
-                <li>Hackerrank : </li>
+                <li>Hackerrank <i class="fab fa-hackerrank"></i> : </li>
                 <li>Codechef : </li>
                 <li>Codeforces : </li>
                 <li>LeetCode : </li>
@@ -25,7 +25,7 @@ function Footer() {
       </div>
       <div className="copyright">
         <p>
-          <i class="fas fa-copyright"></i>2021 AYAN CHAKRABORTY
+          <i class="fas fa-copyright"></i> 2021 AYAN CHAKRABORTY
         </p>
         <p>All Rights Reserved.</p>
       </div>

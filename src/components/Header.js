@@ -3,7 +3,9 @@ import "../css/header.css";
 import image0 from "../assets/profile-images/IMG_1814.JPG";
 import logo from "../assets/position-images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 
+import { Button } from "react-bootstrap";
 function Header() {
   return (
     <div className="header-section">
@@ -23,7 +25,8 @@ function Header() {
           platforms viz. Hackerrank, Codechef, Codeforces, Google Kickstart,
           Google Codejam, Leetcode etc.
         </p>
-       <button className="resume-button">Resume</button>
+       {/* <button className="resume-button">Resume</button> */}
+       <Button variant="primary" className="resume-button">Resume <CloudDownloadIcon /></Button>
        <span className="member-text">- Technical Member at</span><img src={logo} style={{"width":"100px"}}/>
       </div>
       <div className="image-section">

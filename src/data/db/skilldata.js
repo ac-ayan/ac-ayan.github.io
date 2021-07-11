@@ -1,5 +1,5 @@
-import frontend from "../images/html-css-js.png";
-import backend from "../images/MERN-1.jpg";
+import frontend from "../images/html-css-js.jpg";
+import backend from "../images/MERN-Stack-heroku.jpg";
 import ccpp from "../images/c-cpp.svg";
 const skilldata = [
   {

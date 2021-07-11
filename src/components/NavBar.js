@@ -42,7 +42,7 @@ function NavBar() {
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Button variant="primary">Contact</Button>
+        <Button variant="primary" className="contact-button">Contact</Button>
       </Navbar.Collapse>
     </Navbar>
   );

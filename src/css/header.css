@@ -26,17 +26,13 @@
   width: 400px;
 }
 .resume-button{
-    background-color: #007bff;
+    /* background-color: #007bff; */
+    /* background-color: #1967d2; */
     width: 150px;
     height: 50px;
     color: white;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
-    border: none;
-    border-radius: 48px;
-}
-.resume-button:hover {
-    background-color: #0f65dd;
 }
 .member-text{
   font-family: 'Space Mono', monospace;
