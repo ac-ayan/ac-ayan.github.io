@@ -1,6 +1,36 @@
 .footer-section{
-    background-color: rgb(216,216,240);
-    height: 300px;
+    background-color:rgb(4, 84, 170);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    width: 100%;
+    color: white;
+}
+.footer-section .copyright{
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    padding-top: 30px;
+}
+.footer-section .footer-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+.footer-section .address-section h4{
+    font-weight: bold;
+}
+.footer-section .address-section{
+    width: 350px;
+    margin: 20px 0px 0px 100px;
+}
+.footer-section .coding-handles{
+    margin: 20px 100px 0px 0px;
+}
+.footer-section .coding-handles h4{
+    font-weight: bold;
 }

@@ -1,8 +1,12 @@
 .navbar-section{
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255,0.95);
     padding: 0px 220px;
     justify-content: space-between;
     font-family: 'Space Mono', monospace;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0px 0px 1.5px rgb(114, 113, 113);
 }
 .brand{
     font-size: 28px;
@@ -10,7 +14,7 @@
 }
 .mr-auto{
     margin-right: 0 !important;
-    padding-left: 23%;
+    padding-left: 33%;
 }
 .navbar-collapse{
     justify-content: center;

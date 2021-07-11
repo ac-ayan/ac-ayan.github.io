@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./About";
 import Skill from "./Skill";
+import Education from "./Education";
 import Footer from "./Footer";
 import "../css/main.css";
 
@@ -13,6 +14,7 @@ function App(){
             <Header />
             <About />
             <Skill />
+            <Education />
             <Footer />
         </div>
     );

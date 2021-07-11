@@ -1,8 +1,8 @@
 .header-section {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 30px 220px;
-  background: rgba(255,255,255,0.7);
+  padding: 80px 220px;
+  /* background: rgba(255,255,255,0.7); */
 }
 .header-section .text-section {
   padding-top: 100px;

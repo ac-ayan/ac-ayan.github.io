@@ -26,10 +26,11 @@ function NavBar() {
           <Nav.Link href="#edu" className="nav-item">
             Education
           </Nav.Link>
-          <Nav.Link href="#contact" className="nav-item">
-            Contact
-          </Nav.Link>
-          <NavDropdown title="Handles" id="basic-nav-dropdown" className="nav-item">
+          <NavDropdown
+            title="Handles"
+            id="basic-nav-dropdown"
+            className="nav-item"
+          >
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
@@ -41,7 +42,7 @@ function NavBar() {
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Button variant="primary">Search</Button>
+        <Button variant="primary">Contact</Button>
       </Navbar.Collapse>
     </Navbar>
   );
