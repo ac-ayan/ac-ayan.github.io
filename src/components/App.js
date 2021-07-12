@@ -6,6 +6,7 @@ import Project from "./Project";
 import Skill from "./Skill";
 import Education from "./Education";
 import Footer from "./Footer";
+import Contact from "./Contact";
 import "../css/main.css";
 
 function App(){
@@ -14,13 +15,18 @@ function App(){
             <NavBar />
             <Header />
             <hr></hr>
+            <hr></hr>
             <About />
+            <hr></hr>
             <hr></hr>
             <Project />
             <hr></hr>
+            <hr></hr>
             <Skill />
             <hr></hr>
+            <hr></hr>
             <Education />
+            <Contact />
             <Footer />
         </div>
     );

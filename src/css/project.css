@@ -16,6 +16,7 @@
 .project-section .button-div{
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Space Mono', monospace;
 }
 .project-section .skill-image{
     overflow: hidden;
