@@ -1,7 +1,7 @@
 .about-section {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 30px 220px;
+  padding: 30px 200px;
 }
 .about-section .image-section img {
   width: 400px;

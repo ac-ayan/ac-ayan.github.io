@@ -8,7 +8,7 @@ import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import { Button } from "react-bootstrap";
 function Header() {
   return (
-    <div className="header-section">
+    <div className="header-section" name="home">
       <div className="text-section">
         <p>Hi there!👋 My name is</p>
         <h2>Ayan Chakraborty</h2>

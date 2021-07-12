@@ -3,7 +3,7 @@ import "../css/about.css";
 import image1 from "../assets/profile-images/IMG_1804.JPG";
 function About() {
   return (
-    <div className="about-section">
+    <div className="about-section" name="about">
       <div className="image-section">
         <img src={image1} alt="about" />
       </div>

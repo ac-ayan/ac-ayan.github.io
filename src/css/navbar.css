@@ -1,6 +1,6 @@
 .navbar-section{
     background: rgba(255, 255, 255,0.95);
-    padding: 0px 220px;
+    padding: 0px 200px;
     justify-content: space-between;
     font-family: 'Space Mono', monospace;
     position: fixed;
@@ -14,7 +14,7 @@
 }
 .mr-auto{
     margin-right: 0 !important;
-    padding-left: 33%;
+    padding-left: 36%;
 }
 .navbar-collapse{
     justify-content: center;

@@ -4,7 +4,7 @@
     border-top-right-radius: 15px;
     width: 100%;
     color: white;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .footer-section .copyright{
     font-family: 'Space Mono', monospace;
@@ -33,4 +33,12 @@
 }
 .footer-section .coding-handles h4{
     font-weight: bold;
+}
+
+.footer-section .social{
+    font-size: 20px;
+    justify-content: space-between;
+}
+.footer-section .social i{
+    margin: 15px 10px
 }

@@ -5,7 +5,7 @@ import "../css/skill.css";
 
 function Skill() {
   return (
-    <div className="skill-div">
+    <div className="skill-div" name="skill">
     <h2>Skillsets</h2>
       <div className="skill-section">
         {skilldata.map((item) => {

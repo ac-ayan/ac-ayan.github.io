@@ -24,6 +24,11 @@ function Footer() {
         </div>
       </div>
       <div className="copyright">
+      <div className="social">
+      <i class="fab fa-github"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-twitter"></i>
+      </div>
         <p>
           <i class="fas fa-copyright"></i> 2021 AYAN CHAKRABORTY
         </p>
