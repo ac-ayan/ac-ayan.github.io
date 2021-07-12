@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
 import "../css/navbar.css";
+import "../js/navbar";
 function NavBar() {
   return (
     <Navbar className="navbar-section">

@@ -17,3 +17,19 @@
     display: flex;
     justify-content: space-evenly;
 }
+.project-section .skill-image{
+    overflow: hidden;
+}
+.project-section .skill-image .skill-img{
+    height:200px;
+}
+.project-section .project-card{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.project-card .card-text{
+    height: 130px;
+    text-align: justify;
+    text-align-last: center;
+}

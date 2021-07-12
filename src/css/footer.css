@@ -4,6 +4,7 @@
     border-top-right-radius: 15px;
     width: 100%;
     color: white;
+    margin-top: 50px;
 }
 .footer-section .copyright{
     font-family: 'Space Mono', monospace;
@@ -11,7 +12,6 @@
     vertical-align: bottom;
     line-height: 8px;
     padding-bottom: 10px;
-    position: relative;
     padding-top: 30px;
 }
 .footer-section .footer-info{

@@ -2,8 +2,11 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 function ProjectCard(props) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={props.image} />
+    <Card style={{ width: "20rem" }} className="project-card">
+      <div className="skill-image">
+      <Card.Img variant="top" src={props.image} className="skill-img"
+      />
+      </div>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
