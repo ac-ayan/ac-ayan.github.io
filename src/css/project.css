@@ -36,6 +36,9 @@
   text-align: justify;
   text-align-last: center;
 }
+.project-card .project-card-title{
+  height: 50px;
+}
 @media (max-width: 1341px) {
     .project-section {
       padding: 10px 60px;

@@ -8,7 +8,7 @@ function ProjectCard(props) {
       />
       </div>
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title className="project-card-title">{props.title}</Card.Title>
         <Card.Text>
           {props.content}
         </Card.Text>
