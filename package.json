@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "homepage": "http://ac-ayan.github.io/web",
+  "homepage": "https://ayan-chakraborty.me/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.1",
