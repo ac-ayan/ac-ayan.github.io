@@ -14,10 +14,10 @@
 }
 .mr-auto{
     margin-right: 0 !important;
-    padding-left: 36%;
 }
 .navbar-collapse{
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .nav-item{
     margin: 0px 10px;
@@ -42,3 +42,18 @@
     background-color: rgba(201, 198, 235, 0.98);
     transition: ease 1s;
 }
+
+
+
+
+@media (max-width: 1178px) {
+    .navbar-section{
+        padding: 0px 100px;
+    }
+  }
+
+  @media (max-width: 965px) {
+    .navbar-section{
+        padding: 0px 30px;
+    }
+  }

@@ -26,8 +26,10 @@ function Header() {
           Google Codejam, Leetcode etc.
         </p>
        {/* <button className="resume-button">Resume</button> */}
-       <Button variant="primary" className="resume-button">Resume <CloudDownloadIcon /></Button>
-       <span className="member-text">- Technical Member at</span><img src={logo} style={{"width":"100px"}}/>
+       <div className="header-footer">
+       <div className="resume-button-div"><Button variant="primary" className="resume-button">Resume <CloudDownloadIcon /></Button></div>
+       <div><span className="member-text">- Technical Member at</span><img src={logo} style={{"width":"100px"}}/></div>
+       </div>
       </div>
       <div className="image-section">
         <img src={image0} alt="main-profile" />

@@ -11,15 +11,55 @@
 }
 .about-section .text-section h2 {
   padding: 20px 0 20px 150px;
-  font-family: 'Space Mono', monospace;
-  font-family: 'Mirza', cursive;
-    font-weight: 600;
-    color: #393d41;
-    font-size: 50px;
+  font-family: "Space Mono", monospace;
+  font-family: "Mirza", cursive;
+  font-weight: 600;
+  color: #393d41;
+  font-size: 50px;
 }
 .about-section .text-section p {
   text-align: justify;
+  text-align-last: center;
   padding: 20px 0 20px 150px;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1341px) {
+  .about-section {
+    grid-template-columns: auto;
+    align-items: center;
+    padding: 10px 60px;
+  }
+  .about-section .text-section p,
+  .about-section .text-section h2 {
+    padding: 30px 0 !important;
+  }
+  .about-section .image-section {
+    text-align: center;
+    order: 2;
+  }
+  .about-section .image-section img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 965px) {
+  .about-section {
+    padding: 10px 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-section .image-section img{
+    width: 100%;
+  }
+}
+@media (max-width: 460px) {
+  .about-section{
+    padding: 10px 20px;
+  }
+  .about-section .text-section{
+    padding-top: 0px;
+  }
 }

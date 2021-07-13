@@ -119,6 +119,16 @@
     background-color: #F86B13;
 }
 .main-timeline .timeline:nth-child(4n+4) .title{ color: #F86B13; }
+
+@media (max-width: 1341px) {
+    .education-section{
+        padding: 10px 80px;
+    }
+  }
+
+
+
+
 @media screen and (max-width:767px) {
     .main-timeline .timeline,
     .main-timeline .timeline:nth-child(even){

@@ -6,7 +6,7 @@ import "../css/navbar.css";
 import "../js/navbar";
 function NavBar() {
   return (
-    <Navbar className="navbar-section">
+    <Navbar expand="lg" className="navbar-section">
       <Link to="home" smooth={true}>
         {" "}
         <Navbar.Brand href="#home" className="brand">
