@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 function ProjectCard(props) {
   return (
-    <Card style={{ width: "18rem" }} className="project-card">
+    <Card style={{ width: "20rem" }} className="project-card">
       <div className="skill-image">
       <Card.Img variant="top" src={props.image} className="skill-img"
       />
