@@ -2,6 +2,9 @@
   display: grid;
   grid-template-columns: auto auto;
   padding: 30px 200px;
+  background-color: rgb(251,249,253);
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .about-section .image-section img {
   width: 400px;
@@ -51,15 +54,15 @@
 }
 
 @media (max-width: 750px) {
-  .about-section .image-section img{
+  .about-section .image-section img {
     width: 100%;
   }
 }
 @media (max-width: 460px) {
-  .about-section{
+  .about-section {
     padding: 10px 20px;
   }
-  .about-section .text-section{
+  .about-section .text-section {
     padding-top: 0px;
   }
 }

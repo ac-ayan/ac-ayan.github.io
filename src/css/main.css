@@ -1,3 +1,7 @@
 /* .main-section{
     background-image: url("../assets/background-image/background.png");
 } */
+hr{
+    margin: 4px 0px;
+    background-color: rgb(229,230,249);
+}
