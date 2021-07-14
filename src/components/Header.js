@@ -1,9 +1,10 @@
 import React from "react";
 import "../css/header.css";
 import image0 from "../assets/profile-images/IMG_1814.JPG";
+import verified from "../assets/position-images/verified.png";
 import logo from "../assets/position-images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 
 import { Button } from "react-bootstrap";
 function Header() {
@@ -11,25 +12,43 @@ function Header() {
     <div className="header-section" name="home">
       <div className="text-section">
         <p>Hi there!👋 My name is</p>
-        <h2>Ayan Chakraborty</h2>
+        <h2>
+          Ayan Chakraborty{" "}
+          <img
+            className="verified-image"
+            src={verified}
+            alt="verified"
+            style={{ width: "40px" }}
+          />
+        </h2>
         <p className="description">
-          I learnt about HTML, CSS, JS and the other related technologies about
-          a year and a half and its so interesting and engaging that I
-          absolutely love to develop different designed pages and apply
-          functionalities on them and deploy them to take reviews from the
-          viewers. I'm also a flutter app developer and developed few small mini
-          projects to brush my skills up and now developing an app which I'll be
-          launching soon. Besides that I'm also a competitive coder who loves to
-          code and solve different sorts of problem related to data structure
-          and algorithms. I'm actively participating and practicing in different
-          platforms viz. Hackerrank, Codechef, Codeforces, Google Kickstart,
-          Google Codejam, Leetcode etc.
+          B.Tech 3rd Year Student in Kalinga Instritute of Industrial
+          Technology. Passionate about developing things with my utmost
+          creativity and challenging myself to solve different problems with
+          coding.Travelling throughout the year to pursue the farthest expanses of Earth. ✌
         </p>
-       {/* <button className="resume-button">Resume</button> */}
-       <div className="header-footer">
-       <div className="resume-button-div"><Button variant="primary" className="resume-button">Resume <CloudDownloadIcon /></Button></div>
-       <div><span className="member-text">- Technical Member at</span><img src={logo} style={{"width":"100px"}}/></div>
-       </div>
+        <div className="wrapper">
+          <p>I'm a</p>
+          <div className="words">
+            <span>Web Developer.</span>
+            <span>Competitive Coder.</span>
+            <span>Web Developer.</span>
+            <span>Competitive Coder.</span>
+            <span>Web Developer.</span>
+          </div>
+        </div>
+        {/* <button className="resume-button">Resume</button> */}
+        <div className="header-footer">
+          <div className="resume-button-div">
+            <Button variant="primary" className="resume-button">
+              Resume <CloudDownloadIcon />
+            </Button>
+          </div>
+          <div>
+            <span className="member-text">- Technical Member at</span>
+            <img src={logo} style={{ width: "100px" }} />
+          </div>
+        </div>
       </div>
       <div className="image-section">
         <img src={image0} alt="main-profile" />
