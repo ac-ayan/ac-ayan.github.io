@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-scroll";
-import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import "../css/navbar.css";
 import "../js/navbar";
 function NavBar() {
@@ -10,9 +10,7 @@ function NavBar() {
       <Link to="home" smooth={true}>
         {" "}
         <Navbar.Brand href="#home" className="brand">
-          <span className="red">a</span>
-          <span className="yellow">y</span>
-          <span className="green">an</span>
+          <span className="green">ayan</span>
           <span className="blue">ac.</span>
         </Navbar.Brand>
       </Link>
@@ -40,23 +38,8 @@ function NavBar() {
               Education
             </Nav.Link>
           </Link>
-          <NavDropdown
-            title="Handles"
-            id="basic-nav-dropdown"
-            className="nav-item"
-          >
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
         </Nav>
-        <Button variant="primary" className="contact-button">
+        <Button  className="contact-button">
           Contact
         </Button>
       </Navbar.Collapse>

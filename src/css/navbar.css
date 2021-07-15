@@ -24,27 +24,36 @@
     color: #515558 !important;
 }
 /* //Brand Color Section// */
-.red{
-    color: #34a853;
+.contact-button{
+    margin-bottom: 1.3px;
 }
-.yellow{
-    color:#34a853;
+.contact-button-new{
+    background-color: rgb(130, 157, 206);
+    border: none;
 }
+
 .green{
     color: #34a853;
 }
 .blue{
     color: #4285f4;
 }
+.white{
+    color: white !important;
+}
 
 .scrolled{
-    box-shadow: 0px 0px 2px rgb(114, 113, 113);
-    background-color: rgba(209, 220, 255, 0.98);
+    box-shadow: 0px 0px 5px rgb(110,126,205);
+    background-color: rgb(9,104,158);
+    background-color: rgb(83, 119, 187);
     transition: ease 1s;
     font-size:  17px;
 }
 .scrolled-out{
     transition: ease 0.5s;
+}
+.font-color{
+    color: white !important;
 }
 
 

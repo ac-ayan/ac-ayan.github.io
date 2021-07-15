@@ -3,7 +3,15 @@ import "../css/navbar.css";
 $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar-section");
+      var $font = $(".nav-item");
+      var $green = $(".green");
+      var $blue = $(".blue");
+      var $contact = $(".contact-button")
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      $font.toggleClass('font-color',$(this).scrollTop() > $nav.height());
+      $green.toggleClass('white',$(this).scrollTop() > $nav.height());
+      $contact.toggleClass('contact-button-new',$(this).scrollTop() > $nav.height());
+      $blue.toggleClass('white',$(this).scrollTop() > $nav.height());
       $nav.addClass('scrolled-out', $(this).scrollTop() < $nav.height());
     });
   });
