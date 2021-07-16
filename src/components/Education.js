@@ -11,8 +11,6 @@ import TimelineOppositeContent from "@material-ui/lab/TimelineOppositeContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import SchoolIcon from "@material-ui/icons/School";
-import HotelIcon from "@material-ui/icons/Hotel";
-import RepeatIcon from "@material-ui/icons/Repeat";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 

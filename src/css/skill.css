@@ -56,6 +56,9 @@
  .skill-section .skill-card .image-section{
    height: 400px;
  }
+ .skill-div h2{
+   text-align: center;
+ }
 }
 @media (max-width: 542px) {
   .skill-section .skill-card{

@@ -10,8 +10,9 @@
   background-position-x: 600px;
   background-size: 60%;
 }
-.about-section .image-section img {
-  width: 400px;
+.about-section .image-section {
+  width: 400px !important;
+  height: 400px !important;
 }
 .about-section .text-section {
   padding-top: 40px;
@@ -78,12 +79,21 @@
     background-position-y: 100px;
     background-position-x: 10px;
   }
+  .about-section .text-section h2{
+    text-align: center;
+  }
 }
 @media (max-width: 600px) {
   .about-section{
     background-position-y: 100px;
     background-position-x: -200px;
     background-size: 250%;
+  }
+}
+@media (max-width: 517px) {
+  .about-section .image-section{
+    width: auto !important;
+    height: auto !important;
   }
 }
 @media (max-width: 460px) {

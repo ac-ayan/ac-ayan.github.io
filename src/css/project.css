@@ -67,6 +67,7 @@
 @media (max-width: 696px) {
   .project-section{
     justify-content: center;
+    text-align: center;
   }
   .project-section .project-card{
     width: 800px !important;
