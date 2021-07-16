@@ -26,6 +26,8 @@ function App(){
             <hr></hr>
             <hr></hr>
             <Education />
+            <hr></hr>
+            <hr></hr>
             <Contact />
             <Footer />
         </div>

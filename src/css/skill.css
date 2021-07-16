@@ -18,6 +18,9 @@
   display: flex;
   overflow: hidden;
 }
+.skill-section .image-section img {
+  height: 150px;
+}
 .skill-section .card-title {
   text-align: center;
   font-family: "Space Mono", monospace;

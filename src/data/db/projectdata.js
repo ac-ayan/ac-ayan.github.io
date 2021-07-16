@@ -1,6 +1,6 @@
-import todo from "../images/todo_list.png";
-import scribd from "../images/scribd.png";
-import mapathon from "../images/mapathon.jpg";
+import todo from "../images/todo-new.jpg";
+import scribd from "../images/scribd-new-2.jpg";
+import mapathon from "../images/map-1.png";
 const projectdata = [
     {
         image: todo,
