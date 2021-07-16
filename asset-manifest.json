@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6521a3fb.chunk.css",
+    "main.css": "/static/css/main.4df0b7f9.chunk.css",
     "main.js": "/static/js/main.a98435a1.chunk.js",
     "main.js.map": "/static/js/main.a98435a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5edabe48.js",
@@ -12,13 +12,13 @@
     "static/js/3.523fa56a.chunk.js.map": "/static/js/3.523fa56a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0d41a248.chunk.css.map": "/static/css/2.0d41a248.chunk.css.map",
-    "static/css/main.6521a3fb.chunk.css.map": "/static/css/main.6521a3fb.chunk.css.map",
+    "static/css/main.4df0b7f9.chunk.css.map": "/static/css/main.4df0b7f9.chunk.css.map",
     "static/js/2.5624d448.chunk.js.LICENSE.txt": "/static/js/2.5624d448.chunk.js.LICENSE.txt",
     "static/js/3.523fa56a.chunk.js.LICENSE.txt": "/static/js/3.523fa56a.chunk.js.LICENSE.txt",
-    "static/media/about.css": "/static/media/1.07d0f8e3.png",
     "static/media/IMG_1804.5592a59c.JPG": "/static/media/IMG_1804.5592a59c.JPG",
     "static/media/IMG_1814.b03f07bf.JPG": "/static/media/IMG_1814.b03f07bf.JPG",
     "static/media/alcatel_success.e7ddfc37.mp3": "/static/media/alcatel_success.e7ddfc37.mp3",
+    "static/media/about.css": "/static/media/back-trans.99a7bb91.png",
     "static/media/ccpp-2.6a46c05d.jpg": "/static/media/ccpp-2.6a46c05d.jpg",
     "static/media/frontend-2.ed1bed11.png": "/static/media/frontend-2.ed1bed11.png",
     "static/media/logo.b5a43603.png": "/static/media/logo.b5a43603.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.5edabe48.js",
     "static/css/2.0d41a248.chunk.css",
     "static/js/2.5624d448.chunk.js",
-    "static/css/main.6521a3fb.chunk.css",
+    "static/css/main.4df0b7f9.chunk.css",
     "static/js/main.a98435a1.chunk.js"
   ]
 }
