@@ -10,7 +10,7 @@ function Contact() {
           src="https://assets8.lottiefiles.com/packages/lf20_1plcwvk5.json"
           background="transparent"
           speed="1"
-          style={{ width: "400px", height: "400px" }}
+        //   style={{ width: "400px", height: "400px" }}
           loop
           autoplay
         ></lottie-player>
