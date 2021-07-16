@@ -1,0 +1,33 @@
+.contact-section {
+  padding: 30px 200px;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+.contact-section .lottie {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+.contact-section .form-section{
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgba(39, 92, 129, 0.096);
+}
+
+@media (max-width: 1341px) {
+   .contact-section{
+    padding: 30px 60px;
+   }
+}
+@media (max-width: 720px) {
+    .contact-section{
+     grid-template-columns: auto;
+    }
+ }
+ @media (max-width: 460px) {
+    .contact-section {
+      padding: 10px 20px;
+      justify-content: center;
+    }
+ }
