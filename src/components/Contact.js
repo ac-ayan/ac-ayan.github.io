@@ -1,7 +1,7 @@
 import React from "react";
-import {Form, Button} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import "../css/contact.css";
-import Success from "./Success";
+import SuccessAlert from "./SuccessAlert";
 function Contact() {
   return (
     <div className="contact-section">
@@ -17,7 +17,7 @@ function Contact() {
       </div>
       <div className="form-section">
         <h2>Get in touch !</h2>
-        <Form>
+        <Form >
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="name@example.com" />
@@ -26,7 +26,7 @@ function Contact() {
             <Form.Label>Your Message</Form.Label>
             <Form.Control as="textarea" rows={5} />
           </Form.Group>
-          <Success />
+          <SuccessAlert />
         </Form>
       </div>
     </div>
