@@ -1,5 +1,8 @@
 .education-section{
     padding: 50px 200px;
+    background-color: rgba(130, 162, 238, 0.11);
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .education-section .col-md-12{
     padding: 0px;
