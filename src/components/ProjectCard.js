@@ -1,8 +1,14 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Card, Button } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function ProjectCard(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  }, []);
   return (
-    <Card style={{ width: "20rem" }} className="project-card">
+    <Card style={{ width: "20rem" }} className="project-card" data-aos="zoom-in">
       <div className="skill-image">
       <Card.Img variant="top" src={props.image} className="skill-img"
       />

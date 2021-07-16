@@ -16,10 +16,10 @@ function Footer() {
         <div className="coding-handles">
             <h4>coding handles.</h4>
             <ul>
-                <li>Hackerrank <i class="fab fa-hackerrank"></i> : </li>
-                <li>Codechef : </li>
-                <li>Codeforces : </li>
-                <li>LeetCode : </li>
+                <li>Hackerrank <i class="fab fa-hackerrank"></i> : <a href="https://www.hackerrank.com/ayanac1598">ayanac1598</a></li>
+                <li>Codechef : <a href="https://www.codechef.com/users/ayanac">ayanac</a></li>
+                <li>Codeforces : <a href="https://codeforces.com/profile/ayanac">ayanac</a></li>
+                <li>LeetCode : <a href="https://leetcode.com/ayanac/">ayanac</a></li>
             </ul>
         </div>
       </div>

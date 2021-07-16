@@ -13,7 +13,7 @@ function Header() {
       <div className="text-section">
         <p>Hi there!👋 My name is</p>
         <h2>
-          Ayan Chakraborty{" "}
+          Ayan Chakraborty
           <img
             className="verified-image"
             src={verified}

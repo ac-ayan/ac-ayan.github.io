@@ -12,7 +12,7 @@ const skilldata = [
   {
     image: backend,
     alttext: "backend",
-    title: "Back-End Technologies",
+    title: "MERN and Backend Technologies",
     content:
       "Have working experience in the Back-End technologies to incorporate the functionalities of a website.",
   },
