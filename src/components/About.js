@@ -6,7 +6,14 @@ function About() {
     <div className="about-section" name="about">
       <div className="image-section">
         {/* <img src={image1} alt="about" /> */}
-        <lottie-player classname="lottie" src="https://assets6.lottiefiles.com/packages/lf20_ho3vw7rh.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <lottie-player
+          classname="lottie"
+          src="https://assets6.lottiefiles.com/packages/lf20_ho3vw7rh.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
       <div className="text-section">
         <h2>About Me</h2>

@@ -3,9 +3,10 @@
   grid-template-columns: auto auto;
   padding: 30px 200px;
   background-color: rgb(251,249,253);
+  background-color: #fbf9fd;
   /* background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  background-image: url("../assets/background-image/1.png");
+  background-image: url("../assets/background-image/back-trans.png");
   background-repeat: no-repeat;
   background-position-x: 600px;
   background-size: 60%;
