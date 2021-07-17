@@ -40,7 +40,7 @@ function Header() {
         {/* <button className="resume-button">Resume</button> */}
         <div className="header-footer">
           <div className="resume-button-div">
-            <Button variant="primary" className="resume-button">
+            <Button variant="primary" className="resume-button" href="https://drive.google.com/file/d/1cpPKxxHwd_Mq3uPparE7wu6uDzWXRVSL/view?usp=sharing">
               Resume <CloudDownloadIcon />
             </Button>
           </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import "../css/about.css";
+import Avatar from "@material-ui/core/Avatar";
+import Chip from "@material-ui/core/Chip";
+import chipdata from "../data/db/chipdata";
 import image1 from "../assets/profile-images/IMG_1804.JPG";
 function About() {
   return (
@@ -30,6 +33,18 @@ function About() {
           platforms viz. Hackerrank, Codechef, Codeforces, Google Kickstart,
           Google Codejam, Leetcode etc.
         </p>
+        <div className="chip-class">
+        {chipdata.map(item => {
+          return (
+            <Chip
+            color={item.variant.toLowerCase()}
+            label={item.label}
+            avatar={<Avatar src={item.imgsrc} />}
+          />
+          );
+        })}
+          
+        </div>
       </div>
     </div>
   );

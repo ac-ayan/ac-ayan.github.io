@@ -22,7 +22,7 @@
 }
 @media (max-width: 720px) {
     .contact-section{
-     grid-template-columns: auto;
+     grid-template-columns: 100%;
     }
  }
  @media (max-width: 460px) {
