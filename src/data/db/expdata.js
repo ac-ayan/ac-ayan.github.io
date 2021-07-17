@@ -12,7 +12,7 @@ const expdata = [
   {
     variant: "Secondary",
     header : "Feb 2020 - Sep 2020",
-    title: "Digital Marketer at KIIT Exell",
+    title: "Digital Marketer at KIIT Ecell",
     text: [
         "Worked with the core team of the Digital Marketing team",
         "Organised two of the important events of the cell viz. E-Summit and i-Camp.",

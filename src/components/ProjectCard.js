@@ -19,8 +19,8 @@ function ProjectCard(props) {
           {props.content}
         </Card.Text>
         <div className="button-div">
-        <Button variant="primary">GitHub</Button>
-        <Button variant="primary">Website</Button>
+        <Button variant="primary" href={props.github}>GitHub</Button>
+        <Button variant="primary" href={props.web}>Website</Button>
         </div>
       </Card.Body>
     </Card>

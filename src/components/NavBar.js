@@ -39,9 +39,11 @@ function NavBar() {
             </Nav.Link>
           </Link>
         </Nav>
+        <Link to="contact" smooth={true} >
         <Button  className="contact-button">
           Contact
         </Button>
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   );

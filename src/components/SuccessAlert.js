@@ -3,8 +3,7 @@ import {Button} from 'react-bootstrap';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 import { makeStyles } from '@material-ui/core/styles';
-import useSound from 'use-sound';
-import boopSfx from '../assets/sounds/alcatel_success.mp3';
+
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -19,15 +18,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SuccessAlert() {
+
+export default function SuccessAlert(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const [play] = useSound(boopSfx);
+  
   const handleClick = () => {
     setOpen(true);
     
   };
-
   const handleClose = (event, reason) => {
     if (reason === 'clickaway') {
       return;
@@ -38,12 +37,12 @@ export default function SuccessAlert() {
   
   return (
     <div className={classes.root}>
-      <Button onClick={() => {handleClick();play();}}>
+      <Button onClick={handleClick} type="submit"> 
         Send Message
       </Button>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-        <Alert onClose={handleClose} severity="success">
-          Message sent successfully!
+        <Alert onClose={handleClose} severity={props.severity}>
+          {props.message}
         </Alert>
       </Snackbar>
       {/* <Alert severity="error">This is an error message!</Alert>

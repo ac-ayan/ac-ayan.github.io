@@ -13,7 +13,7 @@ function About() {
           classname="lottie"
           src="https://assets6.lottiefiles.com/packages/lf20_ho3vw7rh.json"
           background="transparent"
-          speed="1"
+          speed="1.5"
           loop
           autoplay
         ></lottie-player>
