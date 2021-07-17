@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./About";
+import Experience from "./Experience";
 import Project from "./Project";
 import Skill from "./Skill";
 import Education from "./Education";
@@ -17,6 +18,7 @@ function App(){
             <hr></hr>
             <hr></hr>
             <About />
+            <Experience />
             <hr></hr>
             <hr></hr>
             <Project />

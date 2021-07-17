@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 function ProjectCard(props) {
   useEffect(() => {
-    Aos.init({ duration: 1000});
+    Aos.init({ duration: 1300});
   }, []);
   return (
     <Card style={{ width: "20rem" }} className="project-card" data-aos="zoom-in">
