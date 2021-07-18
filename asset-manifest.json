@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.53b0be12.chunk.css",
-    "main.js": "/static/js/main.9ef2276e.chunk.js",
-    "main.js.map": "/static/js/main.9ef2276e.chunk.js.map",
+    "main.js": "/static/js/main.52060303.chunk.js",
+    "main.js.map": "/static/js/main.52060303.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5978bf85.js",
     "runtime-main.js.map": "/static/js/runtime-main.5978bf85.js.map",
     "static/css/2.0d41a248.chunk.css": "/static/css/2.0d41a248.chunk.css",
-    "static/js/2.6dc3a311.chunk.js": "/static/js/2.6dc3a311.chunk.js",
-    "static/js/2.6dc3a311.chunk.js.map": "/static/js/2.6dc3a311.chunk.js.map",
+    "static/js/2.8eb52cd9.chunk.js": "/static/js/2.8eb52cd9.chunk.js",
+    "static/js/2.8eb52cd9.chunk.js.map": "/static/js/2.8eb52cd9.chunk.js.map",
     "static/js/3.0141ba26.chunk.js": "/static/js/3.0141ba26.chunk.js",
     "static/js/3.0141ba26.chunk.js.map": "/static/js/3.0141ba26.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0d41a248.chunk.css.map": "/static/css/2.0d41a248.chunk.css.map",
     "static/css/main.53b0be12.chunk.css.map": "/static/css/main.53b0be12.chunk.css.map",
-    "static/js/2.6dc3a311.chunk.js.LICENSE.txt": "/static/js/2.6dc3a311.chunk.js.LICENSE.txt",
+    "static/js/2.8eb52cd9.chunk.js.LICENSE.txt": "/static/js/2.8eb52cd9.chunk.js.LICENSE.txt",
     "static/js/3.0141ba26.chunk.js.LICENSE.txt": "/static/js/3.0141ba26.chunk.js.LICENSE.txt",
     "static/media/IMG_1804.5592a59c.JPG": "/static/media/IMG_1804.5592a59c.JPG",
     "static/media/IMG_1814.b03f07bf.JPG": "/static/media/IMG_1814.b03f07bf.JPG",
     "static/media/alcatel_success.e7ddfc37.mp3": "/static/media/alcatel_success.e7ddfc37.mp3",
     "static/media/about.css": "/static/media/back-trans.99a7bb91.png",
     "static/media/ccpp-2.6a46c05d.jpg": "/static/media/ccpp-2.6a46c05d.jpg",
+    "static/media/error_text_message.3925e52d.mp3": "/static/media/error_text_message.3925e52d.mp3",
     "static/media/frontend-2.ed1bed11.png": "/static/media/frontend-2.ed1bed11.png",
     "static/media/logo.b5a43603.png": "/static/media/logo.b5a43603.png",
     "static/media/map-1.0a79736e.png": "/static/media/map-1.0a79736e.png",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.5978bf85.js",
     "static/css/2.0d41a248.chunk.css",
-    "static/js/2.6dc3a311.chunk.js",
+    "static/js/2.8eb52cd9.chunk.js",
     "static/css/main.53b0be12.chunk.css",
-    "static/js/main.9ef2276e.chunk.js"
+    "static/js/main.52060303.chunk.js"
   ]
 }
