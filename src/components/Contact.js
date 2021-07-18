@@ -6,13 +6,17 @@ import "../css/contact.css";
 import SuccessAlert from "./SuccessAlert";
 import useSound from "use-sound";
 import boopSfx from "../assets/sounds/alcatel_success.mp3";
+import error from "../assets/sounds/error_text_message.mp3";
 
-import{ init } from 'emailjs-com';
+import { init } from "emailjs-com";
 init("user_Tbs9cpKBWiXeTxjqVbv0k");
 function Contact() {
- var sum=0,neg=0;
-  var [severity_input,changeSeverity]=React.useState("success");
-  var [message_input,changeMessage]=React.useState("Mail Send Successfully!");
+  var sum = 0,
+    neg = 0;
+  var [severity_input, changeSeverity] = React.useState("success");
+  var [message_input, changeMessage] = React.useState(
+    "Mail Send Successfully!"
+  );
   ////API CALLING
   function sendEmail(e) {
     e.preventDefault();
@@ -35,33 +39,36 @@ function Contact() {
     // /API END
   }
   const [play] = useSound(boopSfx);
+  const [playError] = useSound(error);
   function formcheck(event) {
     event.preventDefault();
     var fields = $(".ss-item-required")
       .find("select, textarea, input")
       .serializeArray();
-      console.log(fields);
+    console.log(fields);
     $.each(fields, function (i, field) {
       // alert(field.name + " is required");
-      if (!field.value) {neg++;}
-      else {
-        sum++
+      if (!field.value) {
+        neg++;
+      } else {
+        sum++;
       }
     });
-    if (sum-neg === 3) {
+    if (sum - neg === 3) {
       changeSeverity("success");
       changeMessage("Message sent successfully!");
       play();
       sendEmail(event);
     } else {
       changeSeverity("error");
-      changeMessage("OOps, Sending Failed!");
+      changeMessage("Parameter missing! Sending Failed.");
+      playError();
     }
-    console.log(sum-neg);
-    neg=0;
-    sum=0;
-    console.log(sum-neg);
-    
+    // console.log(sum - neg);
+    neg = 0;
+    sum = 0;
+    // console.log(sum - neg);
+   $(".ss-item-required")[0].reset();
   }
 
   return (
