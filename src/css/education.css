@@ -26,10 +26,19 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 @media (max-width: 1200px) {
     .education-section{
         padding: 10px 60px;
+
     }
   }
   @media (max-width: 696px) {
   .MuiPaper-root{
-      width: 180px;
+      width: 230px;
+      
   }
 }
+@media (max-width: 412px) {
+    .MuiPaper-root{
+        width: 180px;
+        
+    }
+  }
+  
