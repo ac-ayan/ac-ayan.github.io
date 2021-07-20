@@ -42,7 +42,9 @@
 .footer-section .social i{
     margin: 15px 10px
 }
-
+.footer-section .social a{
+    color: white;
+}
 
 @media (max-width: 690px) {
     .footer-section .footer-info{

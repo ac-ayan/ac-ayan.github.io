@@ -2,6 +2,7 @@ import React from 'react';
 import {Button} from 'react-bootstrap';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
+import SendIcon from '@material-ui/icons/Send';
 import { makeStyles } from '@material-ui/core/styles';
 
 
@@ -38,7 +39,7 @@ export default function SuccessAlert(props) {
   return (
     <div className={classes.root}>
       <Button onClick={handleClick} type="submit"> 
-        Send Message
+        Send Message <SendIcon />
       </Button>
       <Snackbar open={open} autoHideDuration={4000} onClose={handleClose}>
         <Alert onClose={handleClose} severity={props.severity}>

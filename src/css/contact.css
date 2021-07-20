@@ -17,8 +17,13 @@
 
 @media (max-width: 1341px) {
    .contact-section{
-    padding: 30px 60px;
+    padding: 30px 150px;
    }
+}
+@media (max-width: 1200px) {
+  .contact-section{
+   padding: 30px 60px;
+  }
 }
 @media (max-width: 720px) {
     .contact-section{

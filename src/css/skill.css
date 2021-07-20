@@ -45,10 +45,20 @@
 
 @media (max-width: 1341px) {
   .skill-div {
-    padding: 10px 60px;
+    padding: 10px 150px;
+  }
+  .skill-card{
+    width: 300px !important;
   }
 }
-
+@media (max-width: 1200px){
+  .skill-div {
+    padding: 10px 60px;
+  }
+  .skill-card{
+    width: 20rem;
+  }
+}
 @media (max-width: 696px) {
  .skill-section .skill-card{
    width: 800px !important;

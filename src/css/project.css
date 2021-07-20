@@ -42,10 +42,17 @@
 }
 @media (max-width: 1341px) {
     .project-section {
+      padding: 10px 150px;
+    }
+    .project-section .project-card {
+      width: 300px !important;
+    }
+  }
+  @media (max-width: 1200px) {
+    .project-section {
       padding: 10px 60px;
     }
   }
-
 @media (max-width: 965px) {
     .project-section{
         

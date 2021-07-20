@@ -21,8 +21,24 @@
 
 @media (max-width: 1341px) {
     .experience-section{
-        padding: 30px 60px;
+        padding: 30px 150px;
     }
+    .experience-section .team-lottie{
+        margin: auto 0 5%;
+    }
+    .experience-section .team-lottie img{
+       width: 100%;
+    }
+    .experience-section .exp-cards .color-card{
+        width: 290px !important;
+        height: 330px;
+    }
+}
+@media (max-width: 1200px){
+    .experience-section{
+        padding: 10px 60px;
+    }
+   
 }
 @media (max-width: 1136px) {
     .experience-section{

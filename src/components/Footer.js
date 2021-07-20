@@ -25,9 +25,9 @@ function Footer() {
       </div>
       <div className="copyright">
       <div className="social">
-      <i class="fab fa-github"></i>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-twitter"></i>
+     <a href="https://github.com/ac-ayan"><i class="fab fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/acayan/"><i class="fab fa-linkedin"></i></a>
+     <a href="https://twitter.com/home?lang=en"><i class="fab fa-twitter"></i></a>
       </div>
         <p>
           <i class="fas fa-copyright"></i> 2021 AYAN CHAKRABORTY

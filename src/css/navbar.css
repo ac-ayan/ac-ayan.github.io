@@ -56,8 +56,16 @@
     color: white !important;
 }
 
-
-
+@media (max-width: 1461px){
+    .navbar-section{
+        padding: 0px 150px;
+    }
+}
+@media (max-width: 1200px){
+    .navbar-section{
+        padding: 0px 60px;
+    }
+}
 @media (max-width: 1178px) {
     .navbar-section{
         padding: 0px 100px;

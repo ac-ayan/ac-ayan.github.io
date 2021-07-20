@@ -119,16 +119,32 @@
 
 @media (max-width: 1517px) {
   .header-section .text-section {
-    padding-right: 100px;
+    padding-right: 80px;
   }
+  .header-section .image-section img{
+    width: 340px;
+  }
+
 }
 
 @media (max-width: 1461px) {
   .header-section .header-footer {
     grid-template-columns: auto;
   }
+  .header-section{
+    padding: 0px;
+  }
 }
 @media (max-width: 1341px) {
+  .header-section{
+    padding: 60px 150px;
+  }
+  .header-section .text-section{
+    padding-top: 80px;
+  }
+  
+}
+@media (max-width: 1200px) {
   .header-section {
     grid-template-columns: auto;
     padding: 60px;

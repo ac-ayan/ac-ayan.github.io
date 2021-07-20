@@ -20,7 +20,12 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 @media (max-width: 1341px) {
     .education-section{
-        padding: 10px 80px;
+        padding: 10px 150px;
+    }
+  }
+@media (max-width: 1200px) {
+    .education-section{
+        padding: 10px 60px;
     }
   }
   @media (max-width: 696px) {

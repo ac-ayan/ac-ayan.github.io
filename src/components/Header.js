@@ -44,10 +44,10 @@ function Header() {
               Resume <CloudDownloadIcon />
             </Button>
           </div>
-          <div>
+          {/* <div>
             <span className="member-text">- Technical Member at</span>
             <img src={logo} style={{ width: "100px" }} />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="image-section">

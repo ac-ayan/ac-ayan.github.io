@@ -47,10 +47,10 @@
   
 }
 @media (max-width: 1341px) {
-  .about-section {
-    grid-template-columns: auto;
+
+  .about-section{
     align-items: center;
-    padding: 10px 60px;
+    padding: 10px 150px;
     background-position-x: 50px;
     background-size: 100%;
   }
@@ -66,7 +66,11 @@
     width: 60%;
   }
 }
-
+@media (max-width:1200px){
+  .about-section {
+    grid-template-columns: auto;
+  }
+}
 @media (max-width: 965px) {
   .about-section {
     padding: 10px 60px;
@@ -91,7 +95,10 @@
   }
   .about-section .text-section .chip-class{
     padding: 0;
-    height: 80px;
+    height: 100px;
+  }
+  .about-section .text-section .chip-class Chip{
+    margin: 10px;
   }
 }
 @media (max-width: 600px) {
