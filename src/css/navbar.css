@@ -58,9 +58,9 @@
 .basic-navbar-nav{
     border: none;
 }
-.collapsed i{
+/* .collapsed i{
     color: white !important;
-}
+} */
 .toggle-icon{
     color: white !important;
 }
