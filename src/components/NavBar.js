@@ -14,7 +14,12 @@ function NavBar() {
           <span className="blue">ac.</span>
         </Navbar.Brand>
       </Link>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        className="basic-navbar-nav"
+      >
+        <i class="fas fa-bars"></i>
+      </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Link to="about" smooth={true}>
@@ -39,10 +44,8 @@ function NavBar() {
             </Nav.Link>
           </Link>
         </Nav>
-        <Link to="contact" smooth={true} >
-        <Button  className="contact-button">
-          Contact
-        </Button>
+        <Link to="contact" smooth={true}>
+          <Button className="contact-button">Contact</Button>
         </Link>
       </Navbar.Collapse>
     </Navbar>

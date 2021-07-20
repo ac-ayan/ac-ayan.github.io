@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="header-section" name="home">
       <div className="text-section">
-        <p>Hi there!👋 My name is</p>
+        <p className="p-initial">Hi there!👋 My name is</p>
         <h2>
           Ayan Chakraborty
           <img
@@ -25,7 +25,8 @@ function Header() {
           B.Tech 3rd Year Student in Kalinga Instritute of Industrial
           Technology. Passionate about developing things with my utmost
           creativity and challenging myself to solve different problems with
-          coding.Travelling throughout the year to pursue the farthest expanses of Earth. ✌
+          coding.Travelling throughout the year to pursue the farthest expanses
+          of Earth. ✌
         </p>
         <div className="wrapper">
           <p>I'm a</p>
@@ -40,9 +41,39 @@ function Header() {
         {/* <button className="resume-button">Resume</button> */}
         <div className="header-footer">
           <div className="resume-button-div">
-            <Button variant="primary" className="resume-button" href="https://drive.google.com/file/d/1cpPKxxHwd_Mq3uPparE7wu6uDzWXRVSL/view?usp=sharing">
+            {/* <Button
+              variant="primary"
+              className="resume-button"
+              href="https://drive.google.com/file/d/1cpPKxxHwd_Mq3uPparE7wu6uDzWXRVSL/view?usp=sharing"
+            >
               Resume <CloudDownloadIcon />
-            </Button>
+            </Button> */}
+            <div class="btn-container">
+              <a style={{textDecoration:"none"}} 
+              href="https://drive.google.com/file/d/1cpPKxxHwd_Mq3uPparE7wu6uDzWXRVSL/view?usp=sharing">
+                <button>
+                  <span class="text">Resume</span>
+                  <div class="icon-container">
+                    <div class="icon icon--left">
+                      <svg>
+                        <use xlinkHref="#arrow-right"></use>
+                      </svg>
+                    </div>
+                    <div class="icon icon--right">
+                      <svg>
+                        <use xlinkHref="#arrow-right"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </a>
+            </div>
+
+            <svg style={{ display: "none" }}>
+              <symbol id="arrow-right" viewBox="0 0 20 10">
+                <path d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"></path>
+              </symbol>
+            </svg>
           </div>
           {/* <div>
             <span className="member-text">- Technical Member at</span>

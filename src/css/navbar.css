@@ -55,7 +55,15 @@
 .font-color{
     color: white !important;
 }
-
+.basic-navbar-nav{
+    border: none;
+}
+.collapsed i{
+    color: white !important;
+}
+.toggle-icon{
+    color: white !important;
+}
 @media (max-width: 1461px){
     .navbar-section{
         padding: 0px 150px;

@@ -45,7 +45,7 @@ function Contact() {
     var fields = $(".ss-item-required")
       .find("select, textarea, input")
       .serializeArray();
-    console.log(fields);
+    // console.log(fields);
     $.each(fields, function (i, field) {
       // alert(field.name + " is required");
       if (!field.value) {

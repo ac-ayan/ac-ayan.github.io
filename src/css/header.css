@@ -17,7 +17,6 @@
   color: #393d41;
   /* color : #1967d2;
   color: #34a853; */
-  
 }
 .header-section .verified-image {
   margin-bottom: 5px;
@@ -39,7 +38,7 @@
 .header-section .header-footer {
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: space-between;
+  justify-content: left;
 }
 .header-section .resume-button-div {
   display: flex;
@@ -60,7 +59,8 @@
   font-size: 18px;
   font-style: italic;
 }
-.header-section .wrapper, .header-section .wrapper p {
+.header-section .wrapper,
+.header-section .wrapper p {
   box-sizing: content-box;
   height: 60px;
   display: flex;
@@ -121,10 +121,9 @@
   .header-section .text-section {
     padding-right: 80px;
   }
-  .header-section .image-section img{
+  .header-section .image-section img {
     width: 340px;
   }
-
 }
 
 @media (max-width: 1461px) {
@@ -133,20 +132,22 @@
   }
 }
 @media (max-width: 1341px) {
-  .header-section{
+  .header-section {
     padding: 60px 150px;
   }
-  .header-section .text-section{
+  .header-section .text-section {
     padding-top: 80px;
   }
-  
 }
 @media (max-width: 1200px) {
   .header-section {
     grid-template-columns: auto;
     padding: 60px;
   }
-  .header-section .wrapper{
+  .header-section .header-footer {
+    justify-content: center;
+  }
+  .header-section .wrapper {
     justify-content: center;
   }
   .header-section .text-section {
@@ -155,6 +156,9 @@
     align-items: center;
     justify-content: center;
     padding: 30px 0;
+  }
+  .header-section .text-section .p-initial{
+    text-align: center;
   }
   .header-section .header-footer {
     grid-template-columns: auto auto;
@@ -186,7 +190,8 @@
   }
 }
 @media (max-width: 535px) {
-  .header-section .wrapper, .header-section .wrapper p{
+  .header-section .wrapper,
+  .header-section .wrapper p {
     font-size: 25px;
   }
 }
@@ -194,5 +199,93 @@
   .header-section {
     padding: 80px 20px 10px;
   }
-  
+}
+
+/* //////////////////Button////////////// */
+
+.btn-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg);
+  --btn-bg: #1a73e8;
+  --bg: #fff;
+}
+
+.resume-button-div button {
+  --width: 165px;
+  --height: 55px;
+  border: 0;
+  position: relative;
+  min-width: var(--width);
+  min-height: var(--height);
+  border-radius: var(--height);
+  color: #fff;
+  font-weight: 500;
+  background: #79add3;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+}
+.resume-button-div button .text,
+.resume-button-div button .icon-container {
+  position: relative;
+  z-index: 2;
+}
+.resume-button-div button .icon-container {
+  --icon-size: 25px;
+  position: relative;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin-left: 15px;
+  transition: transform 500ms ease;
+}
+.resume-button-div button .icon-container .icon {
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  transition: transform 500ms ease, opacity 250ms ease;
+}
+.resume-button-div button .icon-container .icon--left {
+  transform: translateX(-200%);
+  opacity: 0;
+}
+.resume-button-div button .icon-container .icon svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+.resume-button-div button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--btn-bg);
+  border-radius: var(--height);
+  z-index: 1;
+  transition: transform 500ms ease;
+}
+.resume-button-div button:hover::after {
+  transform: translateX(65%);
+}
+.resume-button-div button:hover .icon-container {
+  transform: translateX(45%);
+}
+.resume-button-div button:hover .icon-container .icon--left {
+  transform: translateX(0);
+  opacity: 1;
+}
+.resume-button-div button:hover .icon-container .icon--right {
+  transform: translateX(200%);
+  opacity: 0;
 }
