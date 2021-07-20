@@ -11,6 +11,7 @@
     margin-top: 30px;
     display: grid;
     grid-template-columns: auto auto;
+    
 }
 .experience-section .exp-cards .color-card{
     margin-right: 20px;
@@ -18,7 +19,15 @@
 .experience-section .exp-cards .card-text{
     padding-left: 20px;
 }
-
+@media (max-width: 1550px){
+    .experience-section .team-lottie{
+        margin: auto 0 5%;
+    }
+    .experience-section .team-lottie img{
+       /* min-height: 258px !important; */
+       width: 100%;
+    }
+}
 @media (max-width: 1341px) {
     .experience-section{
         padding: 30px 150px;
@@ -27,11 +36,11 @@
         margin: auto 0 5%;
     }
     .experience-section .team-lottie img{
-       width: 100%;
+        /* min-width: 283.3px !important; */
+       
     }
     .experience-section .exp-cards .color-card{
         width: 290px !important;
-        height: 330px;
     }
 }
 @media (max-width: 1200px){
@@ -45,8 +54,12 @@
         justify-content: center;
        grid-template-columns: auto;
     }
+    .experience-section .exp-cards{
+        justify-content: space-between;
+    }
     .experience-section .exp-cards .color-card{
         margin: 0px;
+        width: auto !important;
     }
     .experience-section .team-lottie{
        display: flex;
@@ -56,7 +69,10 @@
 @media (max-width: 596px) {
     .experience-section .exp-cards{
         grid-template-columns: auto;
-        justify-content: center;
+    }
+    .experience-section .exp-cards .color-card{
+        width: auto !important;
+        height: auto !important;
     }
     .experience-section .team-lottie img{
         width: 100%;

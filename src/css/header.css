@@ -131,9 +131,6 @@
   .header-section .header-footer {
     grid-template-columns: auto;
   }
-  .header-section{
-    padding: 0px;
-  }
 }
 @media (max-width: 1341px) {
   .header-section{
