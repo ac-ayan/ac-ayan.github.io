@@ -49,8 +49,10 @@ function Header() {
               Resume <CloudDownloadIcon />
             </Button> */}
             <div class="btn-container">
-              <a style={{textDecoration:"none"}} 
-              href="https://drive.google.com/file/d/1cpPKxxHwd_Mq3uPparE7wu6uDzWXRVSL/view?usp=sharing">
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://drive.google.com/file/d/1cpPKxxHwd_Mq3uPparE7wu6uDzWXRVSL/view?usp=sharing"
+              >
                 <button>
                   <span class="text">Resume</span>
                   <div class="icon-container">
@@ -79,6 +81,11 @@ function Header() {
             <span className="member-text">- Technical Member at</span>
             <img src={logo} style={{ width: "100px" }} />
           </div> */}
+
+          {/* <label class="like">
+            <input type="checkbox" />
+            <div class="hearth" />
+          </label> */}
         </div>
       </div>
       <div className="image-section">
