@@ -5,8 +5,8 @@
   /* background: rgba(255,255,255,0.7); */
 }
 .header-section .text-section {
-  padding-top: 100px;
-  padding-right: 150px;
+  padding-top: 80px;
+  padding-right: 130px;
 }
 .header-section .text-section h2 {
   font-size: 50px;
@@ -31,9 +31,11 @@
 .header-section .text-section .description {
   padding: 20px 0px;
 }
+.header-section .image-section{
 
+}
 .header-section .image-section img {
-  width: 400px;
+  width: 510px;
 }
 .header-section .header-footer {
   display: grid;
@@ -119,10 +121,11 @@
 
 @media (max-width: 1517px) {
   .header-section .text-section {
-    padding-right: 80px;
+    padding-top: 40px !important;
+    padding-right: 60px;
   }
   .header-section .image-section img {
-    width: 340px;
+    width: 450px;
   }
 }
 
