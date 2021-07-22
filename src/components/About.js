@@ -25,25 +25,23 @@ function About() {
           a year and a half and its so interesting and engaging that I
           absolutely love to develop different designed pages and apply
           functionalities on them and deploy them to take reviews from the
-          viewers. I'm also a flutter app developer and developed few small mini
-          projects to brush my skills up and now developing an app which I'll be
-          launching soon. Besides that I'm also a competitive coder who loves to
-          code and solve different sorts of problem related to data structure
-          and algorithms. I'm actively participating and practicing in different
-          platforms viz. Hackerrank, Codechef, Codeforces, Google Kickstart,
-          Google Codejam, Leetcode etc.
+          viewers. I'm also a flutter app developer and developed small mini
+          projects to brush up my skills.Besides that I'm also a competitive
+          coder who loves to code and solve different sorts of problem related
+          to data structure and algorithms. I'm actively participating and
+          practicing in different platforms viz. Hackerrank, Codechef,
+          Codeforces, Google Kickstart, Google Codejam, Leetcode etc.
         </p>
         <div className="chip-class">
-        {chipdata.map(item => {
-          return (
-            <Chip
-            color={item.variant.toLowerCase()}
-            label={item.label}
-            avatar={<Avatar src={item.imgsrc} />}
-          />
-          );
-        })}
-          
+          {chipdata.map((item) => {
+            return (
+              <Chip
+                color={item.variant.toLowerCase()}
+                label={item.label}
+                avatar={<Avatar src={item.imgsrc} />}
+              />
+            );
+          })}
         </div>
       </div>
     </div>
