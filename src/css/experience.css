@@ -59,7 +59,10 @@
     padding: 30px 150px;
   }
   .experience-section .team-lottie {
-    margin: auto 0 5%;
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .experience-section .team-lottie img {
     /* min-width: 283.3px !important; */
