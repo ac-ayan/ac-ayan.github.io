@@ -1,8 +1,10 @@
 import React from "react";
 import { Form } from "react-bootstrap";
+import Lottie from "react-lottie-player";
 import emailjs from "emailjs-com";
 import $ from "jquery";
 import "../css/contact.css";
+import potplantJson from "../assets/lottie-animations/41549-animated-plant-in-a-pot.json";
 import SuccessAlert from "./SuccessAlert";
 import useSound from "use-sound";
 import boopSfx from "../assets/sounds/alcatel_success.mp3";
@@ -74,14 +76,13 @@ function Contact() {
   return (
     <div className="contact-section" name="contact">
       <div class="display-section lottie">
-        <lottie-player
-          src="https://assets8.lottiefiles.com/packages/lf20_1plcwvk5.json"
+        <Lottie
+          animationData={potplantJson}
           background="transparent"
-          speed="1"
-          //   style={{ width: "400px", height: "400px" }}
+          style={{ width:"100%" }}
           loop
-          autoplay
-        ></lottie-player>
+          play
+        />
       </div>
       <div className="form-section">
         <h2>Get in touch !</h2>
