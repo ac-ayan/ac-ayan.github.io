@@ -72,6 +72,10 @@
   .about-section {
     grid-template-columns: auto;
   }
+  .about-section .image-section{
+    width: inherit !important;
+    height: 500px !important;
+  }
 }
 @media (max-width: 965px) {
   .about-section {

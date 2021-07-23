@@ -1,5 +1,7 @@
 .experience-section {
   padding: 30px 200px;
+}
+.experience-section .exp-list{
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
@@ -10,16 +12,35 @@
   color: #393d41;
   font-size: 50px;
 }
-.experience-section .team-lottie img {
+.experience-section .exp-list .team-lottie{
+  display: flex;
+  justify-content: center;
+}
+.experience-section .exp-list .team-lottie img {
+  margin-top: 30px;
   width: 400px;
+  object-fit: cover;
 }
 .experience-section .exp-cards {
+  font-family: "Roboto", sans-serif;
   margin-top: 30px;
   display: grid;
+  font-size: 18px;
+  text-align: justify;
   grid-template-columns: auto auto;
+}
+.experience-section .exp-cards .color-card .exp-card-title{
+  font-family: "Bree Serif", serif;
+  word-spacing: 1px !important;
+  font-size: 22px;
+}
+.experience-section .exp-cards .color-card .exp-card-text{
+  padding-top: 20px;
 }
 .experience-section .exp-cards .color-card {
   margin-right: 20px;
+  width: auto !important;
+  height: 400px !important;
 }
 .experience-section .exp-cards .card-text {
   padding-left: 20px;
@@ -28,9 +49,9 @@
   .experience-section .team-lottie {
     margin: auto 0 5%;
   }
-  .experience-section .team-lottie img {
+  .experience-section .exp-list .team-lottie img {
     /* min-height: 258px !important; */
-    width: 100%;
+    height: 400px !important;
   }
 }
 @media (max-width: 1341px) {
@@ -43,8 +64,13 @@
   .experience-section .team-lottie img {
     /* min-width: 283.3px !important; */
   }
+  .experience-section .exp-cards{
+    display: grid;
+    grid-template-columns: auto;
+  }
   .experience-section .exp-cards .color-card {
-    width: 290px !important;
+    width: auto !important;
+    height: auto !important;
   }
 }
 @media (max-width: 1200px) {
@@ -57,28 +83,44 @@
     justify-content: center;
     grid-template-columns: auto;
   }
+  .experience-section .exp-list .exp-cards{
+    grid-template-columns: auto auto;
+  }
   .experience-section .exp-cards {
     justify-content: space-between;
   }
   .experience-section .exp-cards .color-card {
     margin: 0px;
     width: auto !important;
+    height: 400px !important;
   }
   .experience-section .team-lottie {
     display: flex;
     justify-content: center;
   }
 }
+@media (max-width: 955px) {
+  .experience-section .exp-list{
+    grid-template-columns: auto !important;
+  }
+  .experience-section .exp-cards{
+    grid-template-columns: auto auto !important;
+  }
+}
 @media (max-width: 596px) {
   .experience-section .exp-cards {
-    grid-template-columns: auto;
+    grid-template-columns: auto !important;
   }
   .experience-section .exp-cards .color-card {
-    width: auto !important;
+    width: 380 !important;
     height: auto !important;
   }
   .experience-section .team-lottie img {
     width: 100%;
+  }
+  .experience-section .team-lottie img{
+    width: 100% !important;
+    height: auto !important;
   }
 }
 

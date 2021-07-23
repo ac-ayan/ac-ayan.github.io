@@ -12,8 +12,10 @@ function Experience() {
       }, []);
   return (
     <div className="experience-section">
+    <h2>Experience</h2>
+    <div className="exp-list">
       <div className="text">
-        <h2>Experience</h2>
+        {/* <h2>Experience</h2> */}
         <div className="exp-cards">
         {expdata.map((item, idx) => {
           return (
@@ -27,8 +29,8 @@ function Experience() {
             >
               <Card.Header>{item.header}</Card.Header>
               <Card.Body>
-                <Card.Title>{item.title}</Card.Title>
-                <Card.Text>
+                <Card.Title className="exp-card-title">{item.title}</Card.Title>
+                <Card.Text className="exp-card-text">
                 <ul>
                   {item.text.map((listitem)=>{
                       return (
@@ -45,6 +47,7 @@ function Experience() {
       </div>
       <div className="team-lottie">
         <img src={team} alt="team" />
+      </div>
       </div>
     </div>
   );
