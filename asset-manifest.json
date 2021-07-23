@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.5bdc7fe3.chunk.css",
-    "main.js": "/static/js/main.71936b90.chunk.js",
-    "main.js.map": "/static/js/main.71936b90.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.574fc682.js",
-    "runtime-main.js.map": "/static/js/runtime-main.574fc682.js.map",
+    "main.js": "/static/js/main.07fe0817.chunk.js",
+    "main.js.map": "/static/js/main.07fe0817.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.15724133.js",
+    "runtime-main.js.map": "/static/js/runtime-main.15724133.js.map",
     "static/css/2.0d41a248.chunk.css": "/static/css/2.0d41a248.chunk.css",
-    "static/js/2.40e2a08d.chunk.js": "/static/js/2.40e2a08d.chunk.js",
-    "static/js/2.40e2a08d.chunk.js.map": "/static/js/2.40e2a08d.chunk.js.map",
-    "static/js/3.c3c129a4.chunk.js": "/static/js/3.c3c129a4.chunk.js",
-    "static/js/3.c3c129a4.chunk.js.map": "/static/js/3.c3c129a4.chunk.js.map",
+    "static/js/2.4cf94b6e.chunk.js": "/static/js/2.4cf94b6e.chunk.js",
+    "static/js/2.4cf94b6e.chunk.js.map": "/static/js/2.4cf94b6e.chunk.js.map",
+    "static/js/3.64dd7c55.chunk.js": "/static/js/3.64dd7c55.chunk.js",
+    "static/js/3.64dd7c55.chunk.js.map": "/static/js/3.64dd7c55.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0d41a248.chunk.css.map": "/static/css/2.0d41a248.chunk.css.map",
     "static/css/main.5bdc7fe3.chunk.css.map": "/static/css/main.5bdc7fe3.chunk.css.map",
-    "static/js/2.40e2a08d.chunk.js.LICENSE.txt": "/static/js/2.40e2a08d.chunk.js.LICENSE.txt",
-    "static/js/3.c3c129a4.chunk.js.LICENSE.txt": "/static/js/3.c3c129a4.chunk.js.LICENSE.txt",
+    "static/js/2.4cf94b6e.chunk.js.LICENSE.txt": "/static/js/2.4cf94b6e.chunk.js.LICENSE.txt",
+    "static/js/3.64dd7c55.chunk.js.LICENSE.txt": "/static/js/3.64dd7c55.chunk.js.LICENSE.txt",
     "static/media/1.85d7fec4.png": "/static/media/1.85d7fec4.png",
     "static/media/IMG_1804.5592a59c.JPG": "/static/media/IMG_1804.5592a59c.JPG",
     "static/media/alcatel_success.e7ddfc37.mp3": "/static/media/alcatel_success.e7ddfc37.mp3",
@@ -31,10 +31,10 @@
     "static/media/verified.e133bdb7.png": "/static/media/verified.e133bdb7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.574fc682.js",
+    "static/js/runtime-main.15724133.js",
     "static/css/2.0d41a248.chunk.css",
-    "static/js/2.40e2a08d.chunk.js",
+    "static/js/2.4cf94b6e.chunk.js",
     "static/css/main.5bdc7fe3.chunk.css",
-    "static/js/main.71936b90.chunk.js"
+    "static/js/main.07fe0817.chunk.js"
   ]
 }
