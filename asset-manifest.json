@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.5bdc7fe3.chunk.css",
-    "main.js": "/static/js/main.07fe0817.chunk.js",
-    "main.js.map": "/static/js/main.07fe0817.chunk.js.map",
+    "main.js": "/static/js/main.29c88bd5.chunk.js",
+    "main.js.map": "/static/js/main.29c88bd5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.15724133.js",
     "runtime-main.js.map": "/static/js/runtime-main.15724133.js.map",
     "static/css/2.0d41a248.chunk.css": "/static/css/2.0d41a248.chunk.css",
-    "static/js/2.4cf94b6e.chunk.js": "/static/js/2.4cf94b6e.chunk.js",
-    "static/js/2.4cf94b6e.chunk.js.map": "/static/js/2.4cf94b6e.chunk.js.map",
+    "static/js/2.ea725b4d.chunk.js": "/static/js/2.ea725b4d.chunk.js",
+    "static/js/2.ea725b4d.chunk.js.map": "/static/js/2.ea725b4d.chunk.js.map",
     "static/js/3.64dd7c55.chunk.js": "/static/js/3.64dd7c55.chunk.js",
     "static/js/3.64dd7c55.chunk.js.map": "/static/js/3.64dd7c55.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0d41a248.chunk.css.map": "/static/css/2.0d41a248.chunk.css.map",
     "static/css/main.5bdc7fe3.chunk.css.map": "/static/css/main.5bdc7fe3.chunk.css.map",
-    "static/js/2.4cf94b6e.chunk.js.LICENSE.txt": "/static/js/2.4cf94b6e.chunk.js.LICENSE.txt",
+    "static/js/2.ea725b4d.chunk.js.LICENSE.txt": "/static/js/2.ea725b4d.chunk.js.LICENSE.txt",
     "static/js/3.64dd7c55.chunk.js.LICENSE.txt": "/static/js/3.64dd7c55.chunk.js.LICENSE.txt",
     "static/media/1.85d7fec4.png": "/static/media/1.85d7fec4.png",
+    "static/media/4.399cd188.jpg": "/static/media/4.399cd188.jpg",
     "static/media/IMG_1804.5592a59c.JPG": "/static/media/IMG_1804.5592a59c.JPG",
     "static/media/alcatel_success.e7ddfc37.mp3": "/static/media/alcatel_success.e7ddfc37.mp3",
     "static/media/about.css": "/static/media/back-trans.99a7bb91.png",
@@ -26,15 +27,14 @@
     "static/media/map-1.0a79736e.png": "/static/media/map-1.0a79736e.png",
     "static/media/mern-4.0168ab0d.png": "/static/media/mern-4.0168ab0d.png",
     "static/media/scribd-new-2.7e112adb.jpg": "/static/media/scribd-new-2.7e112adb.jpg",
-    "static/media/team-mod.b2ec53ad.png": "/static/media/team-mod.b2ec53ad.png",
     "static/media/todo-new.ada9da0a.jpg": "/static/media/todo-new.ada9da0a.jpg",
     "static/media/verified.e133bdb7.png": "/static/media/verified.e133bdb7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.15724133.js",
     "static/css/2.0d41a248.chunk.css",
-    "static/js/2.4cf94b6e.chunk.js",
+    "static/js/2.ea725b4d.chunk.js",
     "static/css/main.5bdc7fe3.chunk.css",
-    "static/js/main.07fe0817.chunk.js"
+    "static/js/main.29c88bd5.chunk.js"
   ]
 }
