@@ -10,19 +10,10 @@ function About() {
   return (
     <div className="about-section" name="about">
       <div className="image-section">
-        {/* <img src={image1} alt="about" /> */}
-        {/* <lottie-player
-          classname="lottie"
-          src="https://assets6.lottiefiles.com/packages/lf20_ho3vw7rh.json"
-          background="transparent"
-          speed="1.5"
-          loop
-          autoplay
-        ></lottie-player> */}
         <Lottie 
         loop 
         animationData={plantJson} 
-        play 
+        autoplay 
         // style={{ width: 500, height: 500 }}
         style={{width:"60%"}}
         />
