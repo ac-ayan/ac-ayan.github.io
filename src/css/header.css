@@ -2,7 +2,9 @@
   display: grid;
   grid-template-columns: auto auto;
   padding: 80px 200px;
-  /* background: rgba(255,255,255,0.7); */
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .header-section .text-section {
   padding-top: 80px;
@@ -31,8 +33,7 @@
 .header-section .text-section .description {
   padding: 20px 0px;
 }
-.header-section .image-section{
-
+.header-section .image-section {
 }
 .header-section .image-section img {
   width: 510px;
@@ -160,7 +161,7 @@
     justify-content: center;
     padding: 30px 0;
   }
-  .header-section .text-section .p-initial{
+  .header-section .text-section .p-initial {
     text-align: center;
   }
   .header-section .header-footer {
@@ -293,10 +294,6 @@
   opacity: 0;
 }
 
-
-
-
-
 /* ////////Like/////// */
 
 :root {
@@ -344,7 +341,7 @@ input:checked + .hearth {
 }
 @media (hover: hover) {
   .like:hover {
-    background-color: #E1255E15;
+    background-color: #e1255e15;
   }
   .like:hover .hearth {
     background-position-x: calc(var(--size) * (var(--frames) * -1 + 1));

@@ -22,8 +22,8 @@ function Header() {
           />
         </h2>
         <p className="description">
-          B.Tech 3rd Year Student in Kalinga Institute of Industrial
-          Technology. Passionate about developing things with my utmost
+          B.Tech 3rd Year Student at Kalinga Institute of Industrial
+          Technology. Passionate about developing things with utmost
           creativity and challenging myself to solve different problems with
           coding.Travelling throughout the year to pursue the farthest expanses
           of Earth. ✌

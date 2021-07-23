@@ -1,22 +1,31 @@
 import React from "react";
+import Lottie from "react-lottie-player";
 import "../css/about.css";
 import Avatar from "@material-ui/core/Avatar";
 import Chip from "@material-ui/core/Chip";
 import chipdata from "../data/db/chipdata";
+import plantJson from "../assets/lottie-animations/67043-animated-green-leaf-plant-in-a-greek-terracotta-pot.json";
 import image1 from "../assets/profile-images/IMG_1804.JPG";
 function About() {
   return (
     <div className="about-section" name="about">
       <div className="image-section">
         {/* <img src={image1} alt="about" /> */}
-        <lottie-player
+        {/* <lottie-player
           classname="lottie"
           src="https://assets6.lottiefiles.com/packages/lf20_ho3vw7rh.json"
           background="transparent"
           speed="1.5"
           loop
           autoplay
-        ></lottie-player>
+        ></lottie-player> */}
+        <Lottie 
+        loop 
+        animationData={plantJson} 
+        play 
+        // style={{ width: 500, height: 500 }}
+        style={{width:"60%"}}
+        />
       </div>
       <div className="text-section">
         <h2>About Me</h2>
