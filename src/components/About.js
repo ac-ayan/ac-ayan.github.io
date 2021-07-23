@@ -13,7 +13,7 @@ function About() {
         <Lottie 
         loop 
         animationData={plantJson} 
-        autoplay 
+        play 
         // style={{ width: 500, height: 500 }}
         style={{width:"60%"}}
         />
