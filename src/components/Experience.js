@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import "../css/experience.css";
 import { Card } from "react-bootstrap";
-import team from "../assets/experience-image/team-mod.png";
+import team from "../assets/experience-image/4.jpg";
 import expdata from "../data/db/expdata";
 import Aos from "aos";
 import "aos/dist/aos.css";
