@@ -2,7 +2,6 @@ import React from "react";
 import "../css/header.css";
 import image0 from "../assets/profile-images/1.png";
 import verified from "../assets/position-images/verified.png";
-import logo from "../assets/position-images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 

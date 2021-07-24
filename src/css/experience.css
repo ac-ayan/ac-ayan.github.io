@@ -42,6 +42,13 @@
   width: auto !important;
   height: 400px !important;
 }
+.experience-section .exp-cards .exp-card-header{
+  font-family: "Space Mono", monospace;
+  height: 85px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .experience-section .exp-cards .card-text {
   padding-left: 20px;
 }

@@ -1,7 +1,10 @@
+import msac from "../images/logo.png";
+import ecell from "../images/ecell.png";
 const expdata = [
     {
         variant: "Success",
         header : "June 2021 - Present",
+        icon : msac,
         title: "Web Developer at MSAC KIIT",
         text: [
             "Working in the core technical team.",
@@ -12,6 +15,7 @@ const expdata = [
   {
     variant: "Secondary",
     header : "Feb 2020 - Sep 2020",
+    icon: ecell,
     title: "Digital Marketer at KIIT Ecell",
     text: [
         "Worked with the core team of the Digital Marketing team",

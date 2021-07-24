@@ -27,7 +27,7 @@ function Experience() {
               className="mb-2 color-card"
               data-aos="zoom-out"
             >
-              <Card.Header>{item.header}</Card.Header>
+              <Card.Header className="exp-card-header">{item.header}<img src={item.icon} style={{ width: "80px" }} /></Card.Header>
               <Card.Body>
                 <Card.Title className="exp-card-title">{item.title}</Card.Title>
                 <Card.Text className="exp-card-text">
