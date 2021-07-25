@@ -121,11 +121,6 @@
   }
 }
 
-
-
-
-
-
 @media (max-width: 1517px) {
   .header-section .text-section {
     padding-top: 40px !important;
@@ -148,10 +143,10 @@
   .header-section .text-section {
     padding-top: 80px;
   }
-  .header-section .text-section h2{
+  .header-section .text-section h2 {
     font-size: 50px;
   }
-  .header-section .text-section p{
+  .header-section .text-section p {
     font-size: 18px;
   }
   .header-section .wrapper p {
@@ -208,8 +203,6 @@
     grid-template-columns: auto;
   }
 }
-
-
 
 @media (max-width: 535px) {
   .header-section .wrapper,

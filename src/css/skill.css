@@ -28,13 +28,12 @@
   font-weight: bold;
 }
 .skill-section .card-content {
+  font-family: "Roboto", sans-serif;
   text-align: justify !important;
   text-align-last: center !important;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
-.skill-section .card-body{
- 
+.skill-section .card-body {
 }
 .skill-div h2 {
   font-family: "Mirza", cursive;
@@ -47,44 +46,47 @@
   .skill-div {
     padding: 10px 150px;
   }
-  .skill-card{
+  .skill-card {
     width: 300px !important;
   }
 }
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .skill-div {
     padding: 10px 60px;
   }
-  .skill-card{
+  .skill-card {
     width: 20rem;
   }
 }
 @media (max-width: 696px) {
- .skill-section .skill-card{
-   width: 800px !important;
- }
- .skill-section .skill-card .image-section{
-   height: 400px;
- }
- .skill-div h2{
-   text-align: center;
- }
-}
-@media (max-width: 542px) {
-  .skill-section .skill-card{
-  
+  .skill-section .skill-card {
+    width: 800px !important;
   }
-  .skill-section .skill-card .image-section{
+  .skill-section .skill-card .image-section {
     height: 400px;
   }
- }
- @media (max-width: 485px) {
-  .skill-section .skill-card .image-section{
+  .skill-div h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 542px) {
+  .skill-section .skill-card {
+  }
+  .skill-section .skill-card .image-section {
+    height: 400px;
+  }
+}
+@media (max-width: 485px) {
+  .skill-section .skill-card .image-section {
     height: 235px !important;
   }
 }
- @media (max-width: 460px) {
-  .skill-div{
+@media (max-width: 460px) {
+  .skill-div {
     padding: 10px 20px;
+  }
+  .skill-section .card-content {
+    text-align: justify !important;
+    text-align-last: center !important;
   }
 }

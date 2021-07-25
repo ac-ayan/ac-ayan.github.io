@@ -33,86 +33,88 @@
   margin-bottom: 50px;
 }
 .project-card .card-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   height: 150px;
   text-align: justify !important;
   text-align-last: center !important;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-
 }
-.project-card .project-card-title{
+.project-card .project-card-title {
   height: 50px;
   font-weight: bold;
   font-family: "Space Mono", monospace;
 }
 @media (max-width: 1341px) {
-    .project-section {
-      padding: 10px 150px;
-    }
-    .project-section .project-card {
-      width: 300px !important;
-    }
+  .project-section {
+    padding: 10px 150px;
   }
-  @media (max-width: 1200px) {
-    .project-section {
-      padding: 10px 60px;
-    }
+  .project-section .project-card {
+    width: 300px !important;
   }
+}
+@media (max-width: 1200px) {
+  .project-section {
+    padding: 10px 60px;
+  }
+}
 @media (max-width: 965px) {
-    .project-section{
-        
-    }
-    .project-list{
-        display: flex;
-        justify-content: center;
-    }
+  .project-section {
+  }
+  .project-list {
+    display: flex;
+    justify-content: center;
+  }
   .project-section .project-card {
     /* width: 500px !important; */
   }
-  .project-card .skill-image{
-      /* height: 300px; */
+  .project-card .skill-image {
+    /* height: 300px; */
   }
-  .project-card .skill-image .skill-img{
-      /* height: 300px; */
+  .project-card .skill-image .skill-img {
+    /* height: 300px; */
   }
 }
 @media (max-width: 696px) {
-  .project-section{
+  .project-section {
     justify-content: center;
     text-align: center;
   }
-  .project-section .project-card{
+  .project-section .project-card {
     width: 800px !important;
   }
-  .project-section .project-card .skill-image{
+  .project-section .project-card .skill-image {
     height: 300px;
   }
-  .project-section .project-card .skill-image .skill-img{
+  .project-section .project-card .skill-image .skill-img {
     height: 300px;
   }
 }
 @media (max-width: 542px) {
-  .project-section .project-card{
+  .project-section .project-card {
     width: 450px !important;
   }
-  .project-section .project-card .skill-image{
+  .project-section .project-card .skill-image {
     height: 200px;
   }
-  .project-section .project-card .skill-image .skill-img{
+  .project-section .project-card .skill-image .skill-img {
     height: 300px;
   }
 }
 @media (max-width: 460px) {
-  .project-section .project-card{
+  .project-section .project-card {
     width: 410px !important;
   }
-  .project-section .project-card .skill-image{
+  .project-section .project-card .skill-image {
     height: 150px;
   }
-  .project-section .project-card .skill-image .skill-img{
+  .project-section .project-card .skill-image .skill-img {
     height: 250px;
   }
-  .project-section{
+  .project-section {
     padding: 10px 20px;
+  }
+  .project-card .card-text {
+    text-align: justify !important;
+    text-align-last: center !important;
   }
 }
