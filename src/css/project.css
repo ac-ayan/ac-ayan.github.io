@@ -33,9 +33,10 @@
   margin-bottom: 50px;
 }
 .project-card .card-text {
-  height: 130px;
+  height: 140px;
   text-align: justify;
   text-align-last: center;
+  font-size: 18px;
 }
 .project-card .project-card-title{
   height: 50px;
