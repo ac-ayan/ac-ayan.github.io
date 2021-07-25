@@ -34,8 +34,8 @@
 }
 .project-card .card-text {
   height: 150px;
-  text-align: justify;
-  text-align-last: center;
+  text-align: justify !important;
+  text-align-last: center !important;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 

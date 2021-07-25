@@ -28,8 +28,8 @@
   font-weight: bold;
 }
 .skill-section .card-content {
-  text-align: justify;
-  text-align-last: center;
+  text-align: justify !important;
+  text-align-last: center !important;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
