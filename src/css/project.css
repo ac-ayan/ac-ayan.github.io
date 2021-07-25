@@ -113,5 +113,8 @@
   .project-section {
     padding: 10px 20px;
   }
+  .project-card .card-text p{
+    text-align-last: center !important;
+  }
 
 }
