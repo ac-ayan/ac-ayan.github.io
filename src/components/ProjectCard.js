@@ -18,7 +18,9 @@ function ProjectCard(props) {
       </div>
       <Card.Body>
         <Card.Title className="project-card-title">{props.title}</Card.Title>
-        <Card.Text style={{textAlignLast:"center",textAlign:"justify"}}>{props.content}</Card.Text>
+        <Card.Text style={{ textAlignLast: "center", textAlign: "justify" }}>
+          <p>{props.content}</p>
+        </Card.Text>
         <div className="button-div">
           <Button variant="primary" href={props.github}>
             GitHub

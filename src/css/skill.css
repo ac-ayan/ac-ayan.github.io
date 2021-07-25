@@ -27,7 +27,7 @@
   font-family: "Space Mono", monospace;
   font-weight: bold;
 }
-.skill-section .card-content {
+.skill-section .card-content p{
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }

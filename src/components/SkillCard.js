@@ -14,7 +14,7 @@ function SkillCard(props) {
       <Card.Body>
         <Card.Title className="card-title">{props.title}</Card.Title>
         <Card.Text className="card-content" style={{textAlignLast:"center",textAlign:"justify"}}>
-          {props.content}
+          <p>{props.content}</p>
         </Card.Text>
       </Card.Body>
     </Card>
