@@ -29,6 +29,8 @@
 }
 .skill-section .card-content p{
   font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-align-last: center;
   font-size: 18px;
 }
 .skill-section .card-body {

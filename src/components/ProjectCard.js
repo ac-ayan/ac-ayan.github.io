@@ -18,7 +18,7 @@ function ProjectCard(props) {
       </div>
       <Card.Body>
         <Card.Title className="project-card-title">{props.title}</Card.Title>
-        <Card.Text style={{ textAlignLast: "center", textAlign: "justify" }}>
+        <Card.Text>
           <p>{props.content}</p>
         </Card.Text>
         <div className="button-div">

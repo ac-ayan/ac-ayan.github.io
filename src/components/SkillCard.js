@@ -13,7 +13,7 @@ function SkillCard(props) {
       </div>
       <Card.Body>
         <Card.Title className="card-title">{props.title}</Card.Title>
-        <Card.Text className="card-content" style={{textAlignLast:"center",textAlign:"justify"}}>
+        <Card.Text className="card-content">
           <p>{props.content}</p>
         </Card.Text>
       </Card.Body>
