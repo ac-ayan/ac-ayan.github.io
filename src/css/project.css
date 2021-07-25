@@ -33,13 +33,17 @@
   margin-bottom: 50px;
 }
 .project-card .card-text {
-  height: 140px;
+  height: 150px;
   text-align: justify;
   text-align-last: center;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
+
 }
 .project-card .project-card-title{
   height: 50px;
+  font-weight: bold;
+  font-family: "Space Mono", monospace;
 }
 @media (max-width: 1341px) {
     .project-section {

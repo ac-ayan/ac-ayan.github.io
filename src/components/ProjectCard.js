@@ -8,7 +8,7 @@ function ProjectCard(props) {
     Aos.init({ duration: 1100});
   }, []);
   return (
-    <Card style={{ width: "20rem" }} className="project-card" data-aos="zoom-in">
+    <Card style={{ width: "21rem" }} className="project-card" data-aos="zoom-in">
       <div className="skill-image">
       <Card.Img variant="top" src={props.image} className="skill-img"
       />
