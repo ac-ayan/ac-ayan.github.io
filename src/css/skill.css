@@ -85,8 +85,4 @@
   .skill-div {
     padding: 10px 20px;
   }
-  .skill-section .card-content {
-    text-align: justify !important;
-    text-align-last: center !important;
-  }
 }

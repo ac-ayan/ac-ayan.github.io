@@ -106,6 +106,7 @@
   }
   .experience-section .team-lottie {
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
 }

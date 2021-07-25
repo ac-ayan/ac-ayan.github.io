@@ -113,8 +113,4 @@
   .project-section {
     padding: 10px 20px;
   }
-  .project-card .card-text {
-    text-align: justify !important;
-    text-align-last: center !important;
-  }
 }
