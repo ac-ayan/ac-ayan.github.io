@@ -7,11 +7,11 @@
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .header-section .text-section {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-right: 130px;
 }
 .header-section .text-section h2 {
-  font-size: 50px;
+  font-size: 55px;
   /* font-family: 'Amaranth', sans-serif; */
   font-family: "Space Mono", monospace;
   /* font-family: 'Bevan', cursive; */
@@ -26,7 +26,8 @@
 }
 .header-section .text-section p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
+  /* font-size: 1.26rem; */
   font-family: "Roboto", sans-serif;
   padding: 0;
 }
@@ -120,6 +121,11 @@
   }
 }
 
+
+
+
+
+
 @media (max-width: 1517px) {
   .header-section .text-section {
     padding-top: 40px !important;
@@ -141,6 +147,15 @@
   }
   .header-section .text-section {
     padding-top: 80px;
+  }
+  .header-section .text-section h2{
+    font-size: 50px;
+  }
+  .header-section .text-section p{
+    font-size: 18px;
+  }
+  .header-section .wrapper p {
+    font-size: 30px;
   }
 }
 @media (max-width: 1200px) {
@@ -193,6 +208,9 @@
     grid-template-columns: auto;
   }
 }
+
+
+
 @media (max-width: 535px) {
   .header-section .wrapper,
   .header-section .wrapper p {

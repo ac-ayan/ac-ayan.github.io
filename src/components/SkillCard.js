@@ -4,7 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 function SkillCard(props) {
   useEffect(() => {
-    Aos.init({ duration: 1300});
+    Aos.init({ duration: 1100});
   }, []);
   return (
     <Card style={{ width: "20rem" }} className="skill-card" data-aos="zoom-in">
