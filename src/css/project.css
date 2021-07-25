@@ -33,6 +33,7 @@
   margin-bottom: 50px;
 }
 .project-card .card-text p{
+  word-break: break-all;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   height: 150px;
