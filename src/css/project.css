@@ -36,8 +36,8 @@
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   height: 150px;
-  text-align: justify !important;
-  text-align-last: center !important;
+  text-align: justify;
+  text-align-last: center;
 }
 .project-card .project-card-title {
   height: 50px;
