@@ -36,7 +36,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   height: 150px;
-  text-align: justify !important;
+  text-align: justify;
   text-align-last: center !important;
 }
 .project-card .project-card-title {
@@ -112,9 +112,5 @@
   }
   .project-section {
     padding: 10px 20px;
-  }
-  .project-card .card-text {
-    text-align: justify !important;
-    text-align-last: center !important;
   }
 }
