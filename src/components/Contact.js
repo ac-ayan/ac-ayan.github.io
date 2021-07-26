@@ -63,7 +63,7 @@ function Contact() {
       sendEmail(event);
     } else {
       changeSeverity("error");
-      changeMessage("Parameter missing! Sending Failed.");
+      changeMessage("Details Required! Sending Failed.");
       playError();
     }
     // console.log(sum - neg);

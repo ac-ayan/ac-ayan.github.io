@@ -50,4 +50,8 @@
       display: flex;
       justify-content: center;
   }
+  .contact-section .MuiPaper-root{
+    width: auto !important;
+    margin-bottom: 30px;
+  }
  }
