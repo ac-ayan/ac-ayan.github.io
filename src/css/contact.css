@@ -46,8 +46,8 @@
        
         
     }
-    .contact-section .makeStyles-root-3{
+    .contact-section .mail-send-button{
       display: flex;
-      justify-content: center !important;
+      justify-content: center;
   }
  }
