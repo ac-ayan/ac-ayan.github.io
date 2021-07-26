@@ -46,4 +46,8 @@
        
         
     }
+    .contact-section .makeStyles-root-3{
+      display: flex;
+      justify-content: center !important;
+  }
  }
