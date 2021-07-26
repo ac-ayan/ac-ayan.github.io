@@ -2,22 +2,22 @@ const chipdata = [
     {
         variant : "Primary",
         label : "Kickstart",
-        imgsrc :  "#"
+        letter :  "K"
     },
     {
         variant : "Primary",
         label : "Web Development",
-        imgsrc :  "#"
+        letter :  "W"
     },
     {
         variant : "Secondary",
         label : "Competitive Programming",
-        imgsrc :  "#"
+        letter :  "CP"
     },
     {
         variant : "Primary",
         label : "Codejam",
-        imgsrc :  "#"
+        letter :  "C"
     },
 ];
 export default chipdata;

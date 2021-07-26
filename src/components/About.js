@@ -38,7 +38,7 @@ function About() {
               <Chip
                 color={item.variant.toLowerCase()}
                 label={item.label}
-                avatar={<Avatar src={item.imgsrc} />}
+                avatar={<Avatar>{item.letter}</Avatar>}
               />
             );
           })}
