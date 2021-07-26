@@ -67,8 +67,12 @@
         list-style-type: none;
     }
     .footer-section .address-section{
-        width: 375px;
+        width: 330px;
         margin-bottom: 30px;
+    }
+    .makeStyles-root-3{
+        display: flex;
+        justify-content: center;
     }
   }
   

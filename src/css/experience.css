@@ -44,6 +44,7 @@
 }
 .experience-section .exp-cards .exp-card-header{
   font-family: "Space Mono", monospace;
+  font-size: 15px;
   height: 85px !important;
   display: flex;
   align-items: center;

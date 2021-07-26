@@ -57,13 +57,13 @@
 }
 .basic-navbar-nav{
     border: none;
-    color: rgb(255, 255, 255) !important;
+    color: #a1bfd8 !important;
 }
 /* .collapsed i{
     color: white !important;
 } */
 .toggle-icon{
-    color: #b6d1e5 !important;
+    color: #a1bfd8 !important;
 }
 .show{
     transition: ease 1s;

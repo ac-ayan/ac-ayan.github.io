@@ -215,6 +215,11 @@
     padding: 80px 20px 10px;
   }
 }
+@media (max-width: 365px){
+  .header-section .text-section h2{
+   font-size: 40px;
+  }
+}
 
 /* //////////////////Button////////////// */
 
