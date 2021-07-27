@@ -159,7 +159,7 @@
     font-size: 50px;
   }
   .header-section .text-section p {
-    font-size: 18px;
+    font-size: 16.9px;
   }
   .header-section .wrapper p {
     font-size: 30px;
@@ -169,6 +169,9 @@
   .header-section {
     grid-template-columns: auto;
     padding: 60px;
+  }
+  .header-section .text-section p {
+    font-size: 20px;
   }
   .header-section .header-footer {
     justify-content: center;
