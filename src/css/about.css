@@ -19,7 +19,7 @@
 }
 .about-section .text-section {
   padding-top: 40px;
- 
+
   overflow: visible !important;
   background-repeat: no-repeat;
   background-position-x: 100px;
@@ -48,17 +48,19 @@
   /* font-family: "Secular One", sans-serif; */
   /* font-family: "Viga", sans-serif; */
   /* font-style: italic; */
+  font-family: "Dekko", cursive;
+  font-family: 'Overpass Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
+  font-family: "Short Stack", cursive;
 }
-.about-section .text-section .chip-class{
+.about-section .text-section .chip-class {
   /* padding-left: 50px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  
 }
 @media (max-width: 1341px) {
-
-  .about-section{
+  .about-section {
     align-items: center;
     padding: 10px 150px;
     background-position-x: 50px;
@@ -79,11 +81,11 @@
     width: 60%;
   }
 }
-@media (max-width:1200px){
+@media (max-width: 1200px) {
   .about-section {
     grid-template-columns: auto;
   }
-  .about-section .image-section{
+  .about-section .image-section {
     width: inherit !important;
     height: 500px !important;
   }
@@ -98,35 +100,35 @@
   .about-section .image-section img {
     width: 100%;
   }
-  .about-section{
+  .about-section {
     background-position-y: 50px;
   }
 }
 @media (max-width: 660px) {
-  .about-section{
+  .about-section {
     background-position-y: 100px;
     background-position-x: 10px;
   }
-  .about-section .text-section h2{
+  .about-section .text-section h2 {
     text-align: center;
   }
-  .about-section .text-section .chip-class{
+  .about-section .text-section .chip-class {
     padding: 0;
     height: 100px;
   }
-  .about-section .text-section .chip-class Chip{
+  .about-section .text-section .chip-class Chip {
     margin: 10px;
   }
 }
 @media (max-width: 600px) {
-  .about-section{
+  .about-section {
     background-position-y: 100px;
     background-position-x: -200px;
     background-size: 250%;
   }
 }
 @media (max-width: 517px) {
-  .about-section .image-section{
+  .about-section .image-section {
     width: auto !important;
     height: auto !important;
   }

@@ -26,7 +26,7 @@ function About() {
           absolutely love to develop different designed pages and apply
           functionalities on them and deploy them to take reviews from the
           viewers. I'm also a flutter app developer and developed small mini
-          projects to brush up my skills.Besides that I'm also a competitive
+          projects to brush up my skills. Besides that I'm also a competitive
           coder who loves to code and solve different sorts of problem related
           to data structure and algorithms. I'm actively participating and
           practicing in different platforms viz. Hackerrank, Codechef,

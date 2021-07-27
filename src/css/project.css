@@ -34,8 +34,9 @@
 }
 .project-card .card-text p{
   font-family: "Roboto", sans-serif;
+  font-family: "Short Stack", cursive;
   font-size: 18px;
-  height: 150px;
+  height: 180px;
   text-align: center;
   text-align-last: center !important;
 }

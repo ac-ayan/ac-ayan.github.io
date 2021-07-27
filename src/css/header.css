@@ -26,9 +26,21 @@
 }
 .header-section .text-section p {
   text-align: justify;
+  font-weight: 400;
   font-size: 20px;
   /* font-size: 1.26rem; */
   font-family: "Roboto", sans-serif;
+  font-family: "Overpass Mono", monospace;
+  font-family: "Akaya Kanadaka", cursive;
+  font-family: "Andika New Basic", sans-serif;
+  font-family: "Anonymous Pro", monospace;
+  font-family: "Baloo Chettan 2", cursive;
+  font-family: "Fresca", sans-serif;
+  font-family: "Miriam Libre", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Short Stack", cursive;
+  /* font-family: "Ubuntu Mono", monospace; */
   padding: 0;
 }
 .header-section .text-section .description {
@@ -215,9 +227,9 @@
     padding: 80px 20px 10px;
   }
 }
-@media (max-width: 365px){
-  .header-section .text-section h2{
-   font-size: 40px;
+@media (max-width: 365px) {
+  .header-section .text-section h2 {
+    font-size: 40px;
   }
 }
 
