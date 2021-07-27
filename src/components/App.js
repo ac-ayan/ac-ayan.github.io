@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Lottie from "react-lottie-player";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./About";
@@ -8,11 +9,65 @@ import Skill from "./Skill";
 import Education from "./Education";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import loaderJson from "../assets/lottie-animations/9416-just-a-bouncing-ball.json";
 import "../css/main.css";
 
-function App(){
-    return (
+function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3700);
+  }, []);
+
+  return (
+    <>
+      {loading ? (
+        <div
+          style={{
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Lottie
+            loop
+            animationData={loaderJson}
+            play
+            style={{ width: 500}}
+            // style={{ width: "60%" }}
+          />
+        </div>
+      ) : (
         <div className="main-section">
+          <NavBar />
+          <Header />
+          <hr></hr>
+          <hr></hr>
+          <About />
+          <Experience />
+          <hr></hr>
+          <hr></hr>
+          <Project />
+          <hr></hr>
+          <hr></hr>
+          <Skill />
+          <hr></hr>
+          <hr></hr>
+          <Education />
+          <hr></hr>
+          <hr></hr>
+          <Contact />
+          <Footer />
+        </div>
+      )}
+    </>
+  );
+}
+export default App;
+
+
+  /* <div className="main-section">
             <NavBar />
             <Header />
             <hr></hr>
@@ -32,10 +87,8 @@ function App(){
             <hr></hr>
             <Contact />
             <Footer />
-        </div>
-    );
-}
-export default App;
+        </div> */
+
 
 // font-family: 'Caveat', cursive;
 // font-family: 'Open Sans', sans-serif;

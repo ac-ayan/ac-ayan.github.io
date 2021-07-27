@@ -16,17 +16,16 @@
   display: flex;
   justify-content: center;
 }
-.experience-section .exp-list .team-lottie img {
+.experience-section .exp-list .team-lottie{
   margin-top: 30px;
   width: 400px;
-  object-fit: cover;
 }
 .experience-section .exp-cards {
   font-family: "Roboto", sans-serif;
   font-family: "Short Stack", cursive;
   margin-top: 30px;
   display: grid;
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify;
   grid-template-columns: auto auto;
 }
@@ -58,12 +57,27 @@
   .experience-section .team-lottie {
     margin: auto 0 5%;
   }
-  .experience-section .exp-list .team-lottie img {
+  .experience-section .exp-list .team-lottie{
     /* min-height: 258px !important; */
-    height: 400px !important;
+    /* height: 400px !important; */
+  }
+}
+@media (max-width: 1447px){
+  .experience-section .exp-cards{
+    font-size: 16px;
+  }
+}
+@media (max-width: 1423px){
+  .experience-section .exp-cards{
+    font-size: 14.5px;
   }
 }
 @media (max-width: 1341px) {
+ 
+    .experience-section .exp-cards{
+      font-size: 18px;
+    }
+  
   .experience-section {
     padding: 30px 150px;
   }
@@ -128,10 +142,10 @@
     width: 380 !important;
     height: auto !important;
   }
-  .experience-section .team-lottie img {
+  .experience-section .team-lottie {
     width: 100%;
   }
-  .experience-section .team-lottie img{
+  .experience-section .team-lottie{
     width: 100% !important;
     height: auto !important;
   }

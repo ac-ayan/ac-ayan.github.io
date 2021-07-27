@@ -1,10 +1,13 @@
 import React,{useEffect} from "react";
 import "../css/experience.css";
 import { Card } from "react-bootstrap";
+import teamJson from "../assets/lottie-animations/69837-grmmarly-animation-1.json";
+import Lottie from "react-lottie-player";
 import team from "../assets/experience-image/4.jpg";
 import expdata from "../data/db/expdata";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { auto } from "@popperjs/core";
 
 function Experience() {
     useEffect(() => {
@@ -46,7 +49,14 @@ function Experience() {
         </div>
       </div>
       <div className="team-lottie">
-        <img src={team} alt="team" />
+        {/* <img src={team} alt="team" /> */}
+        <Lottie 
+        loop 
+        animationData={teamJson} 
+        play 
+        // style={{ width: 400, height: auto }}
+        // style={{width:"60%"}}
+        />
       </div>
       </div>
     </div>

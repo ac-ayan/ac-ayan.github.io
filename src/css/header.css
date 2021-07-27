@@ -47,6 +47,9 @@
   padding: 20px 0px;
 }
 .header-section .image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .header-section .image-section img {
   width: 510px;
