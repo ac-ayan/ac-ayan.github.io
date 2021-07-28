@@ -59,6 +59,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.about-section .chip-card{
+  margin:1px;
+}
 @media (max-width: 1341px) {
   .about-section {
     align-items: center;

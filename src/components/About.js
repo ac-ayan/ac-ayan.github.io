@@ -36,6 +36,7 @@ function About() {
           {chipdata.map((item) => {
             return (
               <Chip
+                className="chip-card"
                 color={item.variant.toLowerCase()}
                 label={item.label}
                 avatar={<Avatar>{item.letter}</Avatar>}
