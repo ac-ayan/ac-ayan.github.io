@@ -42,21 +42,16 @@ function App() {
         <div className="main-section">
           <NavBar />
           <Header />
-          <hr></hr>
-          <hr></hr>
+          <hr class="sep-2" />
           <About />
           <Experience />
-          <hr></hr>
-          <hr></hr>
+          <hr class="sep-2" />
           <Project />
-          <hr></hr>
-          <hr></hr>
+          <hr class="sep-2" />
           <Skill />
-          <hr></hr>
-          <hr></hr>
+          <hr class="sep-2" />
           <Education />
-          <hr></hr>
-          <hr></hr>
+          <hr class="sep-2" />
           <Contact />
           <Footer />
         </div>

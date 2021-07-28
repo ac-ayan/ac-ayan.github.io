@@ -15,7 +15,7 @@
   width: 480px !important;
   height: auto !important;
   display: flex;
-  justify-content: center;
+  justify-content:left;
 }
 .about-section .text-section {
   padding-top: 40px;
@@ -74,8 +74,8 @@
     font-size: 18px;
   }
   .about-section .image-section {
-    text-align: center;
     order: 2;
+    justify-content:flex-end;
   }
   .about-section .image-section img {
     width: 60%;
@@ -88,6 +88,7 @@
   .about-section .image-section {
     width: inherit !important;
     height: 500px !important;
+    justify-content: center;
   }
 }
 @media (max-width: 965px) {
