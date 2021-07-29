@@ -1,6 +1,9 @@
 .project-section {
   padding: 50px 200px;
   background-color: rgba(130, 162, 238, 0.068);
+  background-color: #f1f5fd;
+  background-image: url("https://www.transparenttextures.com/patterns/pyramid.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production */
 }
 .project-section h2 {
   font-family: "Mirza", cursive;
