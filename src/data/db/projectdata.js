@@ -1,6 +1,7 @@
 import todo from "../images/todo-new.jpg";
 import scribd from "../images/scribd-new-2.jpg";
 import mapathon from "../images/map-1.png";
+import techcolumn from "../images/tech-columns.png";
 const projectdata = [
     {
         image: todo,
@@ -25,6 +26,14 @@ const projectdata = [
         content: "Created district level map using QJIS , a free and Open Source Geographic Information System and bragged \" Notable Mention \" by coming in Top 500 nationwide.",
         github: "https://github.com/ac-ayan/iitb-isro-aicte-mapathon",
         web: "https://iitb-isro-aicte-mapathon.fossee.in/"
+    },
+    {
+        image: techcolumn,
+        alttext: "techcolumn",
+        title: "Tech Columns",
+        content: "It’s a web app, which provides a platform, where the experiences of seniors and their suggestions about their domain are put in form of blogs to help other students.",
+        github: "#",
+        web: "https://tech-columns.netlify.app/"
     }
 ];
 export default projectdata;

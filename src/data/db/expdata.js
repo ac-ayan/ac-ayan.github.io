@@ -5,7 +5,7 @@ const expdata = [
         variant: "Success",
         header : "June 2021 - Present",
         icon : msac,
-        title: "Web Developer at MSAC KIIT",
+        title: "Web Developer at MSC KIIT",
         text: [
             "Working in the core technical team.",
             "Responsible to build and maintain websites and applications for the cell.",
